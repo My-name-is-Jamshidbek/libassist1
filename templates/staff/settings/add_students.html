@@ -1,0 +1,105 @@
+{% extends 'staff/base/base.html' %} 
+{% load static %} 
+{% block title %} 
+Student qo'shish 
+{% endblock title %} 
+{% block style %}
+<link rel="stylesheet" href="{% static 'staff/settings/add_students.css' %}" />
+{% endblock style %} 
+{% block content %}
+<h3 class="add_student-title">Talaba qo'shish</h3>
+<div class="top-box">
+  <form method="post">
+    {% csrf_token %}
+    <div class="inputs-box">
+      <div class="top-inputs">
+        <input
+          type="text"
+          name="FIO"
+          placeholder="F.I.Sh"
+          class="fio-input"
+          required
+        />
+        <input
+          type="text"
+          name="password_ID"
+          placeholder="Pasport ID"
+          class="id-input"
+          required
+        />
+        <input
+          type="text"
+          name="password"
+          placeholder="Parol"
+          class="parol-input"
+          required
+        />
+      </div>
+      <div class="bottom-inputs">
+        <input
+          type="text"
+          name="username"
+          placeholder="Talaba ID"
+          class="username-input"
+          required
+        />
+        <input
+          type="text"
+          name="phone_number"
+          placeholder="Telefon raqami"
+          class="tel-input"
+          required
+        />
+        <div class="select-div">
+          <select
+            name="group"
+            class="form-control rounded"
+            aria-label="Default select example"
+          >
+            <option>Guruh raqami</option>
+            {% for group_id in group_id %}
+            <option value="{{ group_id.id }}">{{ group_id.number }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="inputt-buttons">
+      <button class="inputs-button" type="submit">Qo'shish</button>
+      <a class="a-button" href="{% url 'upload_student' %}">
+        Fayl yuklash
+      </a>
+    </div>
+  </form>
+</div>
+
+<div class="error-message-div">
+  {% for messages in messages %} <p class="error-message-title">{{ messages }}</p> {% endfor %}
+</div>
+
+<div class="members-table">
+  <table class="main-table">
+    <thead>
+      <tr class="main-table_tr">
+        <th>T/R</th>
+        <th>F.I.Sh</th>
+        <th>Guruh raqami</th>
+        <th>Pasport ID</th>
+        <th>Telefon raqami</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for student in students %}
+      <tr class="main-table_tr">
+        <td class="main-table_td">{{ forloop.counter }}</td>
+        <td class="main-table_td">{{ student.student.FIO }}</td>
+        <td class="main-table_td">{{ student.student.groups }}</td>
+        <td class="main-table_td">{{ student.student.passport_id }}</td>
+        <td class="main-table_td">{{ student.student.phone_number }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock content %}

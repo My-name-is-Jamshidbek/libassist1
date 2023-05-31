@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* fallback */
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url("icons.woff2");
+  }
+
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+body{
+  background: var(--back-color);
+  min-height: 100vh;
+  
+}
+
+/* ========= Colors =========== */
+
+:root{
+  /* ===== Colors ===== */
+  --sidebar-color: #fff;
+  --back-color: #F8F9FB;
+  --button-color: #1D90F4;
+  --text-color: #000;
+  --toggle-color: #fff;
+  --search-color: #F8F9FB;
+  --mode-check-color: #000;
+  --checkbox-color: #eeebeb;
+}
+
+.logo-about a{
+  text-decoration: none;
+}
+
+.logo-image{
+    width: 40px;
+    height: 40px;
+}
+
+body.dark{
+  --sidebar-color: #232121;
+  --back-color: #343435;
+  --button-color: #BCB8B8;
+  --text-color: #BCB8B8;
+  --toggle-color: #BCB8B8;
+  --search-color: #BCB8B8;
+  --mode-check-color: #fff;
+  --checkbox-color: #343435;
+}
+
+/* ========= /Colors =========== */
+
+/* ============ scrool =============== */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--button-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sidebar-color);
+  border: 1px solid var(--button-color);
+}
+
+/* ============= /scrool ============ */
+
+/* ============== sidebar ============= */
+
+nav{
+  position: fixed;
+  width: 60px;
+  padding: 15px 10px;
+  height: 100%;
+  background: var(--sidebar-color);
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  transition: width 0.5s ease ;
+  z-index: 1;
+}
+
+.nav__toggle .menu-icon{
+  display: none;
+}
+
+nav.open{
+  width: 250px;
+}
+
+.nav__toggle{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--toggle-color);
+  width: 30px;
+  height: 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  top: 15px;
+  right: -30px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.nav__toggle span{
+  font-size: 30px;
+}
+
+.nav__toggle:hover{
+  color: #1D90F4;
+}
+
+nav.open .nav__toggle span{
+  transform: rotate(180deg);
+}
+
+nav .logo-about{
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.logo-image img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.logo-about .logo-name{
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.text{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  user-select: none;
+  display: none;
+}
+
+nav.open-text .text{
+  display: block;
+}
+
+.icon{
+  font-size: 32px;
+  color: var(--text-color);
+  user-select: none;
+  cursor: pointer;
+}
+
+.search-box{
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  width: 100%;
+  background-color: var(--search-color);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.search-box .search-icon{
+  padding-left: 2px;
+  font-size: 32px;
+  user-select: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.search-box .search-icon:hover{
+  color: #1D90F4;
+}
+
+.search-box .sidebar-input{
+  width: 100%;
+  padding: 7px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+
+.menu-items .nav-links{
+  list-style: none;
+}
+
+.nav-links li{
+  margin: 10px 0;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.nav-links li a{
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-links li a.active .link-name,
+.nav-links li a.active .icon{
+  color: #1D90F4;
+}
+
+.nav-links li .home-text{
+  margin-top: 8px;
+}
+
+.nav-links li .link-name{
+  margin-left: 10px;
+}
+
+.nav-links li a:hover .link-name,
+.nav-links li a:hover .icon{
+  color: #1D90F4;
+}
+
+.menu-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 96%;
+}
+
+.mode{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mode .mode-about{
+  display: flex;
+  align-items: center;
+}
+
+.mode .sun{
+  color: var(--text-color);
+  display: none;
+  cursor: pointer;
+}
+
+.mode .sun:hover,
+.mode .moon:hover{
+  color: #1D90F4;
+}
+
+nav .mode .moon,
+nav .mode .sun{
+  margin-right: 5px;
+}
+
+nav .mode .moon,
+nav .mode .sun,
+nav .mode .light-mode,
+nav .mode .dark-mode{
+  color: var(--text-color);
+  display: none;
+  cursor: pointer;
+}
+
+nav.open .mode .sun,
+nav.open .mode .light-mode{
+  display: block;
+}
+
+body.dark nav.open .mode .sun,
+body.dark nav.open .mode .light-mode{
+  display: none;
+}
+
+body.dark nav.open .mode .moon,
+body.dark nav.open .mode .dark-mode{
+  display: block;
+}
+
+.mode .moon{
+  transform: rotate(140deg);
+}
+
+/* ========= checkbox =========== */
+
+.checkbox{
+  padding: 2px;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  background: var(--checkbox-color);
+  cursor: pointer;
+}
+
+.check{
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--mode-check-color);
+  transform: translateX(0);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.check.dark1{
+  transform: translateX(20px);
+}
+
+/* ========== /checkbox ========== */
+
+
+
+
+/* ============== /sidebar ============= */
+
+/* ==============  user image, user name, user email and log out ================== */
+
+.dashboard .top{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  background: var(--sidebar-color);
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.dashboard .top .top-right-profile{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-right: 10px;
+    min-width: 250px;
+  }
+  
+.dashboard .top .top-right-profile .user-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+  
+.dashboard .top .top-right-profile .user-about{
+    margin: 0 15px;
+    min-width: 150px;
+}
+
+.dashboard .top .top-right-profile .user-about .user-name{
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.dashboard .top .top-right-profile .user-about .user-email{
+  font-size: 13px;
+  color: var(--text-color);
+}
+
+.dashboard .top .top-right-profile a{
+  border-radius: 20px;
+}
+
+.dashboard .top .top-right-profile .exit-icon{
+  color: var(--text-color);
+  font-size: 32px;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* ============== / user image user name and log out ================== */
+
+
+.title{
+  color: var(--text-color);
+}
+
+
+/* =========== footer ========= */
+
+.footer{
+  position: relative;
+  bottom: 0;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  height: 80px;
+  background: var(--sidebar-color);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.footer-title{
+  color: var(--text-color);
+}
+
+/* ============== /footer ============ */
+
+
+/* ========== MediaQuery ================ */
+
+@media screen and (max-width: 576px){
+
+/* =========== sidebar ========== */
+
+  .nav__toggle{
+    background-color: transparent;
+    padding-left: 10px;
+    -webkit-box-shadow: 0px 0px 0px 0px #fff;
+    -moz-box-shadow: 0px 0px 0px 0px #fff;
+    box-shadow: 0px 0px 0px 0px #Fff;
+  }
+
+  nav.open .nav__toggle{
+    position: absolute;
+    top: 20px;
+    right: 8px;
+  }
+
+  .nav__toggle .right-icon{
+    display: none;
+  }
+
+  .nav__toggle .menu-icon{
+    display: block;
+  }
+
+  nav{
+    width: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav.open{
+    width: 220px;
+    padding: 15px 10px;
+  }
+
+  .logo-image{
+    display: none;
+  }
+
+  nav.open .logo-image{
+    display: block;
+  }
+
+  .icon{
+    display: none;
+  }
+
+  nav.open .icon{
+    display: block;
+  }
+
+
+  .dashboard .top .top-right-profile{
+    width: 220px;
+    margin: 0;
+  }
+
+  .mode .label{
+    display: none;
+  }
+
+  nav.open .mode .label{
+    display: block;
+  }
+
+/* =========== /sidebar ========== */
+
+/* ========= user image, user name and email, log out =========== */
+
+  .dashboard .top .top-right-profile{
+    margin: 10px 5px;
+  }
+
+  .dashboard .top .top-right-profile img{
+    display: none;
+  }
+
+/* ========= /user image, user name and email, log out =========== */
+
+/* ============ Main distance top ============= */
+
+  .dashboard .overview{
+    padding: 60px 0 0 0;
+  }
+
+/* ============ /Main distance top ============= */
+
+}
+
+@media screen and (min-width: 577px){
+  .dashboard .overview{
+    padding: 60px 0 0 60px;
+  }
+}
+
+@media screen and (min-width: 766px){
+  .dashboard .overview{
+    padding: 60px 0 0 60px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .dashboard .overview{
+    padding: 60px 0 0 60px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .dashboard .overview{
+    padding: 60px 0 0 60px;
+  }
+
+  /* ========= user image, user name and email, log out =========== */
+
+
+
+  /* ========= user image, user name and email, log out =========== */
+
+  /* ======= MAIN ========== */
+
+
+
+  /* ======= /MAIN ========== */
+
+}
+
+@media screen and (min-width: 1400px){
+  .menu-button{
+    display: none;
+  }
+
+}
+
+/* ========== /MediaQuery ================ */

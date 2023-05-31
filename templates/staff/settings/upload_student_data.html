@@ -1,0 +1,51 @@
+{% extends 'staff/base/base.html' %}
+{% load static %}
+{% block title %}A'zo qo'shish{% endblock title %}
+{% block style %}
+  <link rel="stylesheet" href="{% static 'staff/settings/upload_book1.css' %}" />
+{% endblock style %}
+{% block content %}
+<div class="container">
+  <div class="wrapper">
+    <div class="upload-title">
+      <p>Talaba ma'lumotlarini yuklash</p>
+    </div>
+    <div class="form-div">
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="select-div">
+          <select
+            name="group"
+            class="form-control rounded"
+            aria-label="Default select example"
+          >
+            <option>Guruh raqami</option>
+            {% for group_id in group %}
+            <option value="{{ group_id.id }}">{{ group_id.number }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="input-div">
+          <input type="file" name="file" id="upload-file" required hidden />
+          <button id="upload-btn" type="button">Fayl tanlash</button>
+          <span id="upload-text">Fayl tanlanmagan</span>
+        </div>
+        <div class="buttons-div">
+          <div class="upload-btn-div">
+            <button type="submit" class="submit-btn">Yuborish</button>
+          </div>
+          <div class="download-btn-div">
+            <a href="{% static 'student.xlsx' %}" class="submit-btn-a" download>Namunani yuklash</a>
+          </div>
+          <div class="error-message-div">
+            {% for messages in messages %} <p class="error-message-title">{{ messages }}</p> {% endfor %}
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="{% static 'staff/settings/upload_book1.js' %}"></script>
+
+{% endblock content %}

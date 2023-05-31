@@ -1,0 +1,54 @@
+{% extends 'student/base.html' %}
+{% load static %}
+
+{% block title %}
+  Kitoblar
+{% endblock title %}
+
+{% block style %}
+  <link rel="stylesheet" href="{%static 'staff/all_book_style.css' %}">
+  <style>
+    .container{
+      min-height: 84vh;
+    }
+  </style>
+{% endblock style %}
+  
+{% block content %}
+<div class="container">
+  <h3 class="give-book-title">Mavjud kitoblar</h3>
+<div class="choose-input">
+  <form method="post">
+    {% csrf_token %}
+    <input type="text" name="search" placeholder="Kitob izlash" />
+    <button type="submit">Qidirish</button>
+  </form>
+</div>
+<div class="members-table">
+  <table class="main-table">
+    <thead>
+      <tr class="main-table_tr">
+        <th>T/R</th>
+        <th>Kitob nomi</th>
+        <th>Muallifi</th>
+        <th>Inventar raqami</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for book in book %}
+      <tr class="main-table_tr">
+        <td class="main-table_td">{{ forloop.counter }}</td>
+        <td class="main-table_td">
+          {{ book.book_name }}
+        </td>
+        <td class="main-table_td">
+          {{ book.author }}
+        </td>
+        <td class="main-table_td">{{ book.key }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+</div>
+{% endblock content %}

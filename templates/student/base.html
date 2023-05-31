@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+
+    {% block style %} {% endblock style %}
+    <link rel="stylesheet" href="{% static 'student/base/css/base.css' %}" />
+    <title>{% block title %}{% endblock title %}</title>
+  </head>
+  <body class="bodyy">
+    <nav>
+      <div class="nav__toggle" id="nav__toggle">
+        <span class="material-symbols-outlined right-icon">
+          chevron_right
+        </span>
+        <span class="material-symbols-outlined menu-icon"> menu </span>
+      </div>
+      <div class="logo-about">
+        <div class="logo-image">
+          <a href="{% url 'student_profile' %}">
+            <img src="{% static 'avatar.jpg' %}" alt="logo" />
+          </a>
+        </div>
+        <a href="{% url 'student_profile' %}">
+          <span class="logo-name text">LIB.UBTUIT.UZ</span>
+        </a>
+      </div>
+      <div class="menu-items">
+        <div>
+          <ul class="nav-links">
+            <li class="li">
+              <a
+                href="{% url 'student_profile' %}"
+                {%
+                block
+                homeahref
+                %}
+                {%
+                endblock
+                homeahref
+                %}
+              >
+                <span class="material-symbols-outlined icon"> home </span>
+                <span class="text link-name home-text">Asosiy sahifa</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'reading_book' %}"
+                {%
+                block
+                xizmatlarahref
+                %}
+                {%
+                endblock
+                xizmatlarahref
+                %}
+              >
+                <span class="material-symbols-outlined icon icon-size">menu_book</span>
+                <span class="text link-name">O'qiyotgan kitoblarim</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'read_book' %}"
+                {%
+                block
+                settingsahref
+                %}
+                {%
+                endblock
+                settingsahref
+                %}
+              >
+                <span class="material-symbols-outlined icon icon-size">collections_bookmark</span>
+                <span class="text link-name">O'qigan kitoblarim</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'news' %}"
+                {%
+                block
+                sendmahref
+                %}
+                {%
+                endblock
+                sendmahref
+                %}
+              >
+                <span class="material-symbols-outlined icon">
+                  notifications_active
+                </span>
+                <span class="text link-name">Yangiliklar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'all_book' %}"
+                {%
+                block
+                all_booksahref
+                %}
+                {%
+                endblock
+                all_booksahref
+                %}
+              >
+                <span class="material-symbols-outlined icon">
+                  library_books
+                </span>
+                <span class="text link-name">Mavjud Kitoblar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'contact_s' %}"
+                {%
+                block
+                contactahref
+                %}
+                {%
+                endblock
+                contactahref
+                %}
+              >
+                <span class="material-symbols-outlined icon">
+                  lab_profile
+                </span>
+                <span class="text link-name">Dastur haqida</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mode">
+          <div class="mode-about">
+            <span class="material-symbols-outlined moon"> brightness_2 </span>
+            <span class="material-symbols-outlined sun"> light_mode </span>
+            <span class="text light-mode">light mode</span>
+            <span class="text dark-mode">dark mode</span>
+          </div>
+          <div class="checkbox">
+            <div class="check "></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="distance-main">
+      <section class="dashboard">
+        <div class="top-menu">
+          <div class="top">
+            <div class="top-right-profile">
+              <img
+                src="{% static 'avatar.jpg' %}"
+                alt="image"
+                class="user-image"
+              />
+              <div class="user-about">
+                <p class="user-name">{{ student.FIO }}</p>
+                <p class="user-email"></p>
+              </div>
+              <a href="{% url 'logout' %}"
+                ><span class="material-symbols-outlined exit-icon">
+                  logout
+                </span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="dash-content">
+          <div class="overview">
+            <div class="boxes">{% block content %} {% endblock content %}</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= footer ================= -->
+
+      <footer class="footer">
+        <p class="footer-title">
+          Siz foydalanayotgan sahifa<br />mutlaqo himoyalangan
+        </p>
+      </footer>
+
+      <!-- ================= /footer ================= -->
+    </div>
+
+    <script src="{% static 'student/base/js/base.js' %}"></script>
+        
+  </body>
+</html>

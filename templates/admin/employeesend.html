@@ -1,0 +1,27 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% block title %}
+Xabar yuborish
+{% endblock title %}
+{% block style %}
+  <link rel="stylesheet" href="{% static 'staff/sendmessage_style.css' %}">
+{% endblock style %}
+{% block content %}
+<div class="main-center">
+  <div class="main-div">
+    <p class="message-title">Xodimlarga xabar yuborish</p>
+    <form method="post">
+      {% csrf_token %}
+      <div class="message-thema">
+        <p class="thema-title">Xabar mavzusi:</p>
+        <textarea name="title" cols="30" rows="2" maxlength="100" class="thema-textarea" required ></textarea>
+      </div>
+      <div class="message-about">
+        <p class="message-about-title">Xabar matni:</p>
+        <textarea name="message" id="" cols="30" rows="2" maxlength="1000" class="message-about-text" required ></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Yuborish</button>
+    </form>
+  </div>
+</div>
+{% endblock content %}

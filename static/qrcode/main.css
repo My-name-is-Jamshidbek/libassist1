@@ -1,0 +1,184 @@
+/* ========= Colors =========== */
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ===== Colors ===== */
+    --sidebar-color: #fff;
+    --back-color: #F8F9FB;
+    --button-color: #1D90F4;
+    --text-color: #000;
+    --toggle-color: #fff;
+    --search-color: #F8F9FB;
+    --btn-color: #fff;
+  }
+  
+  body.dark{
+    --sidebar-color: #232121;
+    --back-color: #343435;
+    --button-color: #BCB8B8;
+    --text-color: #BCB8B8;
+    --toggle-color: #BCB8B8;
+    --search-color: #BCB8B8;
+    --btn-color: #000;
+  }
+  
+  /* ========= /Colors =========== */
+
+.container{
+    min-height: 76vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.add-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-info-top{
+    color: var(--text-color);
+    font-size: 24px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.book-info-left{
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background: var(--sidebar-color);
+}
+
+.give-book-right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 10px 0;
+    border-radius: 10px;
+    background: var(--sidebar-color);
+}
+
+.book-info-box{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.info-left{
+    font-size: 20px;
+    color: var(--text-color);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;   
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.info-right{
+    font-size: 20px;
+    padding-left: 20px;
+    color: var(--text-color);
+}
+
+.give-book-title{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+.select-div{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.select-div form{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.select-div select{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    color: var(--text-color);
+    background: var(--sidebar-color);
+}
+
+.group-select-div{
+    padding-bottom: 20px;
+}
+
+.select-div select:focus{
+    outline: none;
+}
+
+.select-div select option{
+    width: 100%;
+    background: var(--sidebar-color);
+    color: var(--text-color);
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.time-select-div{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.time-select-div input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 2px 5px 6px;
+    background: var(--sidebar-color);
+    color: var(--text-color);
+    font-size: 18px;
+    border: 1px solid var(--text-color);
+}
+
+.time-select-div input:focus{
+    outline: none;
+}
+
+.submit-div{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn{
+    width: 165px;
+    height: 36px;
+    font-size: 16px;
+    border: 1px solid var(--button-color);
+    color: var(--btn-color);
+    background: var(--button-color);
+    border-radius: 10px;
+}
+
+.submit-btn-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 165px;
+    height: 36px;
+    font-size: 18px;
+    border: 1px solid var(--button-color);
+    color: var(--btn-color);
+    background: var(--button-color);
+    border-radius: 10px;
+}

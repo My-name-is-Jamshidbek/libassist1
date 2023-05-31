@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+.boxes {
+  position: absolute;
+}
+.table {
+  position: relative;
+  width: 600px;
+  height: 379px;
+  left: 350px;
+  top: 100px;
+  background: #ffffff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+.table_theme {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  height: 40px;
+  background: #f8f9fb;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+.table_theme p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  top: 3px;
+  position: relative;
+}
+.table span {
+  position: relative;
+  margin-left: 10px;
+  top: 11px;
+  bottom: 11px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+.table-select {
+  position: relative;
+  top: 20px;
+  margin-left: 10px;
+  width: 580px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+}
+.table-select:required,
+.table-select option {
+  padding-left: 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #a6a8ac;
+}
+.table-select option {
+  font-size: 15px;
+}
+.upload_file {
+  position: relative;
+  text-align: center;
+  top: 45px;
+  left: 10px;
+  width: 580px;
+  height: 50px;
+  background: #f8f9fb;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+#custom-button {
+  position:absolute;
+  top: 8px;
+  margin-left: -280px;
+  padding: 5px 30px 5px 30px;
+  color: white;
+  background-color: rgba(29, 144, 244, 1);
+  border: 0px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  width:auto;
+}
+#custom-text {
+  margin-left: -100px;
+  position:absolute;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Open Sans";
+  font-style: normal;
+  white-space: nowrap;
+  text-align: left; 
+  width:400px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.upload_btn {
+  padding: 10px 261px 10px 261px;
+  position: relative;
+  top: 67px;
+  left:10px;
+  width: 580px;
+  height: 50px;
+  border: 0px solid white;
+  cursor: pointer;
+  text-align:center;
+  color: #f8f9fb;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  border-radius: 6px;
+  background-color: rgba(29, 144, 244, 1);
+}
+.download_temp{
+    position: relative;
+    top:93px;
+    left:10px;
+    cursor: pointer;
+    color:rgba(29, 144, 244, 1);
+}

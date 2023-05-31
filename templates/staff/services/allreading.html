@@ -1,0 +1,41 @@
+{% extends 'staff/base/base.html' %}
+{% load static %}
+
+{% block title %}
+  O'qiyotganlar
+{% endblock title %}
+
+{% block style %}
+  <link rel="stylesheet" href="{% static 'staff/services/allreading_style.css' %}">
+{% endblock style %}
+   
+{% block content %}
+<h3 class="give-book-title">Hozirda o'qiyotganlar</h3>
+<div class="members-table">
+  <table class="main-table">
+    <thead>
+      <tr class="main-table_tr">
+        <th>T/R</th>
+        <th>F.I.Sh</th>
+        <th>Guruh</th>
+        <th>Kitob nomi</th>
+        <th>Olgan vaqti</th>
+        <th>Muhlat</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for accept in reading %}  
+      <tr class="main-table_tr">
+        <td class="main-table_td">{{ forloop.counter }}</td>
+        <td class="main-table_td">{{ accept.student.FIO }}</td>
+        <td class="main-table_td">{{ accept.student.groups }}</td>
+        <td class="main-table_td">{{ accept.book_name }}</td>
+        <td class="main-table_td">{{ accept.date }}</td>
+        <td class="main-table_td">{{ accept.respite|date:'d' }} kun</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock content %}
+    

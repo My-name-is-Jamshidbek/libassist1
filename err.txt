@@ -1,0 +1,460 @@
+Qator: 15 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 514 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 304
+Qator: 515 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 305
+Qator: 516 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 306
+Qator: 517 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 307
+Qator: 518 Sabab: Takrorlangan! Qiymat: 307
+Qator: 519 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 308
+Qator: 520 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 309
+Qator: 521 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 310
+Qator: 522 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 311
+Qator: 523 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 312
+Qator: 524 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 313
+Qator: 525 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 314
+Qator: 526 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 315
+Qator: 527 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 316
+Qator: 528 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 317
+Qator: 529 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 318
+Qator: 582 Sabab: Takrorlangan! Qiymat: 8425
+Qator: 583 Sabab: Takrorlangan! Qiymat: 8426
+Qator: 584 Sabab: Takrorlangan! Qiymat: 8427
+Qator: 585 Sabab: Takrorlangan! Qiymat: 8428
+Qator: 586 Sabab: Takrorlangan! Qiymat: 8429
+Qator: 592 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5766
+Qator: 593 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5767
+Qator: 594 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5768
+Qator: 595 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5769
+Qator: 596 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5770
+Qator: 597 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5771
+Qator: 598 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5772
+Qator: 599 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5773
+Qator: 600 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5774
+Qator: 601 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5775
+Qator: 602 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5776
+Qator: 603 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5777
+Qator: 604 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5778
+Qator: 605 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5779
+Qator: 606 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5780
+Qator: 607 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5781
+Qator: 608 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5782
+Qator: 609 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5783
+Qator: 610 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5784
+Qator: 611 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5785
+Qator: 629 Sabab: Takrorlangan! Qiymat: 6785
+Qator: 703 Sabab: Takrorlangan! Qiymat: 9881
+Qator: 785 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1091
+Qator: 786 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1083
+Qator: 787 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1103
+Qator: 788 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1090
+Qator: 789 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1088
+Qator: 790 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1101
+Qator: 791 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1093
+Qator: 792 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1099
+Qator: 793 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1095
+Qator: 794 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1106
+Qator: 795 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1097
+Qator: 796 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1098
+Qator: 797 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1094
+Qator: 798 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1087
+Qator: 799 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1092
+Qator: 800 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1100
+Qator: 801 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1085
+Qator: 802 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1089
+Qator: 803 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1086
+Qator: 804 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1102
+Qator: 805 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1096
+Qator: 806 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1084
+Qator: 807 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1107
+Qator: 808 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1105
+Qator: 809 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1108
+Qator: 810 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1104
+Qator: 811 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 129
+Qator: 812 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 127
+Qator: 813 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 128
+Qator: 823 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 184
+Qator: 824 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 182
+Qator: 825 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 186
+Qator: 826 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 185
+Qator: 827 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 183
+Qator: 858 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 859 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 905 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1751
+Qator: 906 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1750
+Qator: 907 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1749
+Qator: 908 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1747
+Qator: 909 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1748
+Qator: 910 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1551
+Qator: 911 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1548
+Qator: 912 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1554
+Qator: 913 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1545
+Qator: 914 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1547
+Qator: 915 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1550
+Qator: 916 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1552
+Qator: 917 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1544
+Qator: 918 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1553
+Qator: 919 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1546
+Qator: 920 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1549
+Qator: 960 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5267
+Qator: 961 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3897
+Qator: 962 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3894
+Qator: 963 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3895
+Qator: 964 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3899
+Qator: 965 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3896
+Qator: 966 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3898
+Qator: 967 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3749
+Qator: 968 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 444
+Qator: 969 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 439
+Qator: 970 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 440
+Qator: 971 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 443
+Qator: 972 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 441
+Qator: 973 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 442
+Qator: 1118 Sabab: Takrorlangan! Qiymat: 7443
+Qator: 1119 Sabab: Takrorlangan! Qiymat: 7444
+Qator: 1120 Sabab: Takrorlangan! Qiymat: 7445
+Qator: 1121 Sabab: Takrorlangan! Qiymat: 7446
+Qator: 1122 Sabab: Takrorlangan! Qiymat: 7447
+Qator: 1183 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1115/A
+Qator: 1216 Sabab: Ma'lumot turi noto'g'ri Qiymat: 372/б
+Qator: 1286 Sabab: Ma'lumot turi noto'g'ri Qiymat: 245/А
+Qator: 1354 Sabab: Ma'lumot turi noto'g'ri Qiymat: 248/A
+Qator: 1395 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3882
+Qator: 1396 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3888
+Qator: 1397 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3889
+Qator: 1398 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3885
+Qator: 1399 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3884
+Qator: 1400 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3890
+Qator: 1401 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3881
+Qator: 1402 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3892
+Qator: 1403 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3886
+Qator: 1404 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3880
+Qator: 1405 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3893
+Qator: 1406 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3887
+Qator: 1407 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3891
+Qator: 1408 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3879
+Qator: 1409 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3883
+Qator: 1410 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3900
+Qator: 1411 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3901
+Qator: 1412 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3907
+Qator: 1413 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3905
+Qator: 1414 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3906
+Qator: 1415 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3903
+Qator: 1416 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3904
+Qator: 1417 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6440
+Qator: 1418 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3902
+Qator: 1419 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6441
+Qator: 1420 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6442
+Qator: 1435 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2279/А
+Qator: 1453 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1216
+Qator: 1454 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1220
+Qator: 1455 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1218
+Qator: 1456 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1217
+Qator: 1457 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1219
+Qator: 1471 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 2629
+Qator: 1472 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 2628
+Qator: 1473 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 2627
+Qator: 1474 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 2626
+Qator: 1475 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 2625
+Qator: 1485 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3123
+Qator: 1516 Sabab: Takrorlangan! Qiymat: 5568
+Qator: 1517 Sabab: Takrorlangan! Qiymat: 5569
+Qator: 1518 Sabab: Takrorlangan! Qiymat: 5570
+Qator: 1519 Sabab: Takrorlangan! Qiymat: 5571
+Qator: 1561 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6539
+Qator: 1609 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1280.8
+Qator: 1633 Sabab: Takrorlangan! Qiymat: 3855
+Qator: 1634 Sabab: Ma'lumot turi noto'g'ri Qiymat: 3859.
+Qator: 1668 Sabab: Ma'lumot turi noto'g'ri Qiymat: 410/А
+Qator: 1676 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 1771 Sabab: Ma'lumot turi noto'g'ri Qiymat: 240/Б
+Qator: 1772 Sabab: Ma'lumot turi noto'g'ri Qiymat: 49/А
+Qator: 1773 Sabab: Ma'lumot turi noto'g'ri Qiymat: 49/Б
+Qator: 1774 Sabab: Ma'lumot turi noto'g'ri Qiymat: 49/В
+Qator: 1791 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1097\А
+Qator: 1806 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1103/A
+Qator: 1962 Sabab: Ma'lumot turi noto'g'ri Qiymat: 756/A
+Qator: 1963 Sabab: Ma'lumot turi noto'g'ri Qiymat: 426/А
+Qator: 2057 Sabab: Ma'lumot turi noto'g'ri Qiymat: 243\А
+Qator: 2058 Sabab: Ma'lumot turi noto'g'ri Qiymat: 243\Б
+Qator: 2059 Sabab: Ma'lumot turi noto'g'ri Qiymat: 243\В
+Qator: 2084 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1378\А
+Qator: 2218 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1449/А
+Qator: 2225 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1293/А
+Qator: 2238 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 2291 Sabab: Ma'lumot turi noto'g'ri Qiymat: 97/А
+Qator: 2297 Sabab: Takrorlangan! Qiymat: 4884
+Qator: 2306 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1017/А
+Qator: 2308 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1286/А
+Qator: 2347 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1294/А
+Qator: 2450 Sabab: Ma'lumot turi noto'g'ri Qiymat: 52/В
+Qator: 2488 Sabab: Takrorlangan! Qiymat: 737
+Qator: 2489 Sabab: Takrorlangan! Qiymat: 738
+Qator: 2490 Sabab: Takrorlangan! Qiymat: 739
+Qator: 2491 Sabab: Takrorlangan! Qiymat: 740
+Qator: 2492 Sabab: Takrorlangan! Qiymat: 741
+Qator: 2493 Sabab: Takrorlangan! Qiymat: 1201
+Qator: 2494 Sabab: Takrorlangan! Qiymat: 1202
+Qator: 2495 Sabab: Takrorlangan! Qiymat: 1203
+Qator: 2496 Sabab: Takrorlangan! Qiymat: 1204
+Qator: 2497 Sabab: Takrorlangan! Qiymat: 1205
+Qator: 2531 Sabab: Takrorlangan! Qiymat: 4498
+Qator: 2532 Sabab: Takrorlangan! Qiymat: 499
+Qator: 2533 Sabab: Takrorlangan! Qiymat: 10637
+Qator: 2534 Sabab: Takrorlangan! Qiymat: 10638
+Qator: 2535 Sabab: Takrorlangan! Qiymat: 10639
+Qator: 2536 Sabab: Takrorlangan! Qiymat: 10640
+Qator: 2537 Sabab: Takrorlangan! Qiymat: 10641
+Qator: 2639 Sabab: Takrorlangan! Qiymat: 329
+Qator: 2647 Sabab: Takrorlangan! Qiymat: 2583
+Qator: 2648 Sabab: Takrorlangan! Qiymat: 2584
+Qator: 2649 Sabab: Takrorlangan! Qiymat: 2585
+Qator: 2650 Sabab: Takrorlangan! Qiymat: 2586
+Qator: 2651 Sabab: Takrorlangan! Qiymat: 2587
+Qator: 2652 Sabab: Takrorlangan! Qiymat: 2588
+Qator: 2653 Sabab: Ma'lumot turi noto'g'ri Qiymat: 34/А
+Qator: 2654 Sabab: Ma'lumot turi noto'g'ri Qiymat: 34/Б
+Qator: 2655 Sabab: Ma'lumot turi noto'g'ri Qiymat: 34/В
+Qator: 2656 Sabab: Ma'lumot turi noto'g'ri Qiymat: 38/А
+Qator: 2657 Sabab: Ma'lumot turi noto'g'ri Qiymat: 38/Б
+Qator: 2658 Sabab: Ma'lumot turi noto'g'ri Qiymat: 38/В
+Qator: 2659 Sabab: Ma'lumot turi noto'g'ri Qiymat: 550/А
+Qator: 2662 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1081/A
+Qator: 2684 Sabab: Takrorlangan! Qiymat: 854
+Qator: 2685 Sabab: Takrorlangan! Qiymat: 847
+Qator: 2686 Sabab: Takrorlangan! Qiymat: 848
+Qator: 2687 Sabab: Takrorlangan! Qiymat: 846
+Qator: 2688 Sabab: Takrorlangan! Qiymat: 855
+Qator: 2696 Sabab: Ma'lumot turi noto'g'ri Qiymat: 240\А
+Qator: 2723 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1491/А
+Qator: 2724 Sabab: Ma'lumot turi noto'g'ri Qiymat: 410/Д
+Qator: 2725 Sabab: Ma'lumot turi noto'g'ri Qiymat: 410/Б
+Qator: 2748 Sabab: Takrorlangan! Qiymat: 10967
+Qator: 2749 Sabab: Takrorlangan! Qiymat: 10964
+Qator: 2750 Sabab: Takrorlangan! Qiymat: 10965
+Qator: 2751 Sabab: Takrorlangan! Qiymat: 10966
+Qator: 2752 Sabab: Takrorlangan! Qiymat: 10968
+Qator: 2785 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7146
+Qator: 2797 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1362\2A
+Qator: 2864 Sabab: Ma'lumot turi noto'g'ri Qiymat: 939/А
+Qator: 2900 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 803
+Qator: 2901 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 548
+Qator: 2908 Sabab: Ma'lumot turi noto'g'ri Qiymat: 634/А
+Qator: 2910 Sabab: Ma'lumot turi noto'g'ri Qiymat: 5205-5224
+Qator: 2911 Sabab: Ma'lumot turi noto'g'ri Qiymat: 372/А
+Qator: 2912 Sabab: Ma'lumot turi noto'g'ri Qiymat: 664/А
+Qator: 2948 Sabab: Takrorlangan! Qiymat: 5798
+Qator: 2983 Sabab: Takrorlangan! Qiymat: 8268
+Qator: 2984 Sabab: Takrorlangan! Qiymat: 8269
+Qator: 2985 Sabab: Takrorlangan! Qiymat: 8270
+Qator: 2986 Sabab: Ma'lumot turi noto'g'ri Qiymat: 52/Б
+Qator: 2990 Sabab: Takrorlangan! Qiymat: 2094
+Qator: 2991 Sabab: Takrorlangan! Qiymat: 2095
+Qator: 2992 Sabab: Takrorlangan! Qiymat: 2096
+Qator: 2993 Sabab: Takrorlangan! Qiymat: 2097
+Qator: 2994 Sabab: Takrorlangan! Qiymat: 2098
+Qator: 2998 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2038/А
+Qator: 3007 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 4418
+Qator: 3008 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 4419
+Qator: 3019 Sabab: Ma'lumot turi noto'g'ri Qiymat: 656/А
+Qator: 3038 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 3039 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 3066 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1558/А
+Qator: 3080 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1467
+Qator: 3081 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1468
+Qator: 3082 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1469
+Qator: 3083 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1471
+Qator: 3084 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1472
+Qator: 3085 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1473
+Qator: 3086 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1474
+Qator: 3087 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1475
+Qator: 3088 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1476
+Qator: 3109 Sabab: Ma'lumot turi noto'g'ri Qiymat: 408/А
+Qator: 3124 Sabab: Ma'lumot turi noto'g'ri Qiymat: 601/А
+Qator: 3126 Sabab: Ma'lumot turi noto'g'ri Qiymat: 590/А
+Qator: 3313 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2010/А
+Qator: 3322 Sabab: Takrorlangan! Qiymat: 7567
+Qator: 3323 Sabab: Takrorlangan! Qiymat: 7568
+Qator: 3324 Sabab: Takrorlangan! Qiymat: 7569
+Qator: 3325 Sabab: Takrorlangan! Qiymat: 7570
+Qator: 3326 Sabab: Takrorlangan! Qiymat: 7571
+Qator: 3327 Sabab: Takrorlangan! Qiymat: 10798
+Qator: 3328 Sabab: Takrorlangan! Qiymat: 10799
+Qator: 3329 Sabab: Takrorlangan! Qiymat: 10800
+Qator: 3330 Sabab: Takrorlangan! Qiymat: 10801
+Qator: 3331 Sabab: Takrorlangan! Qiymat: 10672
+Qator: 3332 Sabab: Takrorlangan! Qiymat: 10673
+Qator: 3333 Sabab: Takrorlangan! Qiymat: 10674
+Qator: 3334 Sabab: Takrorlangan! Qiymat: 10675
+Qator: 3335 Sabab: Takrorlangan! Qiymat: 10676
+Qator: 3371 Sabab: Ma'lumot turi noto'g'ri Qiymat: 584/А
+Qator: 3444 Sabab: Takrorlangan! Qiymat: 6794
+Qator: 3445 Sabab: Takrorlangan! Qiymat: 6795
+Qator: 3446 Sabab: Takrorlangan! Qiymat: 6796
+Qator: 3447 Sabab: Takrorlangan! Qiymat: 6797
+Qator: 3448 Sabab: Takrorlangan! Qiymat: 6798
+Qator: 3530 Sabab: Ma'lumot turi noto'g'ri Qiymat: 587/А
+Qator: 3575 Sabab: Ma'lumot turi noto'g'ri Qiymat: 625/А
+Qator: 3576 Sabab: Ma'lumot turi noto'g'ri Qiymat: 896/А
+Qator: 3625 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 9007
+Qator: 3702 Sabab: Ma'lumot turi noto'g'ri Qiymat: 667/А
+Qator: 3810 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 5746
+Qator: 3811 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 7788
+Qator: 3827 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 3828 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 3829 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 3835 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1258/А
+Qator: 3842 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 6552
+Qator: 3950 Sabab: Takrorlangan! Qiymat: 5839
+Qator: 3957 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 4026 Sabab: Ma'lumot turi noto'g'ri Qiymat: 7659-7664
+Qator: 4213 Sabab: Takrorlangan! Qiymat: 11201
+Qator: 4349 Sabab: Ma'lumot turi noto'g'ri Qiymat: 233/А
+Qator: 4366 Sabab: Ma'lumot turi noto'g'ri Qiymat: 155/А
+Qator: 4405 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7644
+Qator: 4406 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7645
+Qator: 4419 Sabab: Ma'lumot turi noto'g'ri Qiymat: 3192\А
+Qator: 4603 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2194/А
+Qator: 4655 Sabab: Takrorlangan! Qiymat: 2508
+Qator: 4656 Sabab: Takrorlangan! Qiymat: 2509
+Qator: 4657 Sabab: Takrorlangan! Qiymat: 2510
+Qator: 4658 Sabab: Takrorlangan! Qiymat: 2511
+Qator: 4659 Sabab: Takrorlangan! Qiymat: 2512
+Qator: 4660 Sabab: Takrorlangan! Qiymat: 2513
+Qator: 4661 Sabab: Takrorlangan! Qiymat: 2514
+Qator: 4662 Sabab: Takrorlangan! Qiymat: 2515
+Qator: 4663 Sabab: Takrorlangan! Qiymat: 2516
+Qator: 4664 Sabab: Takrorlangan! Qiymat: 2517
+Qator: 4665 Sabab: Takrorlangan! Qiymat: 2518
+Qator: 4677 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1163\А
+Qator: 4703 Sabab: Takrorlangan! Qiymat: 2499
+Qator: 4704 Sabab: Takrorlangan! Qiymat: 2500
+Qator: 4705 Sabab: Takrorlangan! Qiymat: 2501
+Qator: 4706 Sabab: Takrorlangan! Qiymat: 2502
+Qator: 4707 Sabab: Takrorlangan! Qiymat: 2503
+Qator: 4708 Sabab: Takrorlangan! Qiymat: 2504
+Qator: 4709 Sabab: Takrorlangan! Qiymat: 2505
+Qator: 4710 Sabab: Takrorlangan! Qiymat: 2506
+Qator: 4711 Sabab: Takrorlangan! Qiymat: 2507
+Qator: 4732 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8782 Ф
+Qator: 4835 Sabab: Ma'lumot turi noto'g'ri Qiymat: 884/А
+Qator: 4844 Sabab: Takrorlangan! Qiymat: 2555
+Qator: 4854 Sabab: Takrorlangan! Qiymat: 9564
+Qator: 4884 Sabab: Takrorlangan! Qiymat: 8574
+Qator: 4962 Sabab: Takrorlangan! Qiymat: 3640
+Qator: 4970 Sabab: Takrorlangan! Qiymat: 10601
+Qator: 4971 Sabab: Takrorlangan! Qiymat: 10602
+Qator: 5002 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1898
+Qator: 5003 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7128
+Qator: 5008 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1596
+Qator: 5009 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1586
+Qator: 5010 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1587
+Qator: 5011 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1588
+Qator: 5012 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1589
+Qator: 5013 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1590
+Qator: 5014 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1591
+Qator: 5015 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1592
+Qator: 5016 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1593
+Qator: 5017 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1594
+Qator: 5037 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8245 Ф
+Qator: 5125 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8136 Ф
+Qator: 5321 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 6162
+Qator: 5339 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6007
+Qator: 5340 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6008
+Qator: 5341 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6009
+Qator: 5342 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6010
+Qator: 5343 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6011
+Qator: 5344 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6012
+Qator: 5345 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6013
+Qator: 5346 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6014
+Qator: 5347 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6015
+Qator: 5348 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6016
+Qator: 5349 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6017
+Qator: 5350 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6018
+Qator: 5375 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8873-8878
+Qator: 5377 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8891-8896
+Qator: 5394 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8825-8842, 8826
+Qator: 5395 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6073-6079
+Qator: 5423 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8855-8860
+Qator: 5442 Sabab: Takrorlangan! Qiymat: 8806
+Qator: 5443 Sabab: Takrorlangan! Qiymat: 8807
+Qator: 5444 Sabab: Takrorlangan! Qiymat: 8808
+Qator: 5445 Sabab: Takrorlangan! Qiymat: 8809
+Qator: 5446 Sabab: Takrorlangan! Qiymat: 8810
+Qator: 5447 Sabab: Takrorlangan! Qiymat: 8811
+Qator: 5484 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2612/A
+Qator: 5487 Sabab: Takrorlangan! Qiymat: 6154
+Qator: 5488 Sabab: Takrorlangan! Qiymat: 6155
+Qator: 5489 Sabab: Takrorlangan! Qiymat: 6156
+Qator: 5497 Sabab: Ma'lumot turi noto'g'ri Qiymat: 441/A
+Qator: 5502 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1106/A
+Qator: 5516 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6019-6029
+Qator: 5517 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6030-6039
+Qator: 5518 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8800-8805
+Qator: 5519 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8963-8968
+Qator: 5527 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6123-6128
+Qator: 5528 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6062-6072
+Qator: 5532 Sabab: Takrorlangan! Qiymat: 5954
+Qator: 5558 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8933-8944
+Qator: 5587 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6048-6056
+Qator: 5588 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8861-8872
+Qator: 5640 Sabab: Takrorlangan! Qiymat: 11134
+Qator: 5656 Sabab: Ma'lumot turi noto'g'ri Qiymat: 4404-4407
+Qator: 5657 Sabab: Ma'lumot turi noto'g'ri Qiymat: 5535-5554
+Qator: 5658 Sabab: Ma'lumot turi noto'g'ri Qiymat: 3939-3948
+Qator: 5682 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6901-6902
+Qator: 5683 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6838, 6890-6891 6899-6900
+Qator: 5684 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6837, 6882-6883 6897-6898
+Qator: 5685 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6901-6902
+Qator: 5686 Sabab: Ma'lumot turi noto'g'ri Qiymat: 7231-7232
+Qator: 5703 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2341, 6463
+Qator: 5704 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8455-8474
+Qator: 5726 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1803\A
+Qator: 5755 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 5049
+Qator: 5757 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 6519
+Qator: 5796 Sabab: Ma'lumot turi noto'g'ri Qiymat: 408/А
+Qator: 5802 Sabab: Takrorlangan! Qiymat: 5789
+Qator: 5824 Sabab: Takrorlangan! Qiymat: 6589
+Qator: 5864 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1470\A
+Qator: 5866 Sabab: Ma'lumot turi noto'g'ri Qiymat: 237\А
+Qator: 5958 Sabab: Takrorlangan! Qiymat: 7711
+Qator: 5959 Sabab: Takrorlangan! Qiymat: 7712
+Qator: 5960 Sabab: Takrorlangan! Qiymat: 7713
+Qator: 5961 Sabab: Takrorlangan! Qiymat: 7714
+Qator: 5962 Sabab: Takrorlangan! Qiymat: 7715
+Qator: 5963 Sabab: Takrorlangan! Qiymat: 7716
+Qator: 5964 Sabab: Takrorlangan! Qiymat: 7717
+Qator: 6020 Sabab: Takrorlangan! Qiymat: 8763
+Qator: 6022 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1953
+Qator: 6023 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1954
+Qator: 6024 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1955
+Qator: 6035 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7116
+Qator: 6036 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7117
+Qator: 6078 Sabab: Takrorlangan! Qiymat: 224
+Qator: 6079 Sabab: Takrorlangan! Qiymat: 225
+Qator: 6080 Sabab: Takrorlangan! Qiymat: 226
+Qator: 6081 Sabab: Takrorlangan! Qiymat: 227
+Qator: 6082 Sabab: Takrorlangan! Qiymat: 228
+Qator: 6117 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6839, 6884, 6885
+Qator: 6118 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6840, 6886, 6887
+Qator: 6119 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6841, 6888, 6889
+Qator: 6143 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1400-1646
+Qator: 6147 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1452-1466
+Qator: 6171 Sabab: Takrorlangan! Qiymat: 8007
+Qator: 6172 Sabab: Takrorlangan! Qiymat: 8006
+Qator: 6189 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1478-1487
+Qator: 6190 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 6301 Sabab: Takrorlangan! Qiymat: 2015
+Qator: 6369 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 10658
+Qator: 6370 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 10657
+Qator: 6385 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11142
+Qator: 6386 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11143
+Qator: 6387 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11144
+Qator: 6388 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11145
+Qator: 6389 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11146
+Qator: 6390 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11147
+Qator: 6403 Sabab: Ma'lumot turi noto'g'ri Qiymat: 4919.6521
+Qator: 6411 Sabab: Takrorlangan! Qiymat: 5054
+Qator: 6462 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 8477
+Qator: 6464 Sabab: Ma'lumot turi noto'g'ri Qiymat: 408/В
+Qator: 6472 Sabab: Ma'lumot turi noto'g'ri Qiymat: 11394, 11395
+Qator: 6473 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11167
+Qator: 6479 Sabab: Ma'lumot turi noto'g'ri Qiymat: 4305/Г

@@ -1,0 +1,121 @@
+/* ========= Colors =========== */
+
+:root{
+  /* ===== Colors ===== */
+  --sidebar-color: #fff;
+  --back-color: #F8F9FB;
+  --button-color: #1D90F4;
+  --text-color: #000;
+  --toggle-color: #fff;
+  --search-color: #F8F9FB;
+  --btn-color: #fff;
+}
+
+body.dark{
+  --sidebar-color: #232121;
+  --back-color: #343435;
+  --button-color: #BCB8B8;
+  --text-color: #BCB8B8;
+  --toggle-color: #BCB8B8;
+  --search-color: #BCB8B8;
+  --btn-color: #000;
+}
+
+/* ========= /Colors =========== */
+
+.main-center{
+    min-height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div{
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    background: var(--sidebar-color);
+}
+
+.message-title{
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--back-color);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.message-thema,
+.message-about{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.thema-title{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    width: 170px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #F8F9FB;
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+.message-about-title{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #F8F9FB;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+.myform{
+    padding: 10px;
+}
+
+form textarea:focus{
+    outline: none;
+}
+
+.thema-textarea{
+    width: calc(100% - 170px);
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+
+.message-about-text{
+    width: calc(100% - 150px);
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+
+.submit-btn{
+    width: 100%;
+    background: var(--button-color);
+    color: var(--btn-color);
+    font-size: 20px;
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+}

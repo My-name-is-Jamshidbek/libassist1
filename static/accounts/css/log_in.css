@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========= Colors =========== */
+
+:root {
+  /* ===== Colors ===== */
+  --sidebar-color: #fff;
+  --back-color: #f8f9fb;
+  --button-color: #1d90f4;
+  --text-color: #000;
+  --toggle-color: #fff;
+  --search-color: #f8f9fb;
+  --btn-color: #fff;
+}
+
+body.dark {
+  --sidebar-color: #232121;
+  --back-color: #343435;
+  --button-color: #bcb8b8;
+  --text-color: #bcb8b8;
+  --toggle-color: #bcb8b8;
+  --search-color: #bcb8b8;
+  --btn-color: #000;
+}
+
+/* ========= /Colors =========== */
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--back-color);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  background: var(--sidebar-color);
+  padding: 30px 20px;
+  border-radius: 6px;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 16px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 16px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 16px 0px rgba(34, 60, 80, 0.2);
+}
+
+.container .logn-in-title {
+  font-size: 26px;
+  padding: 10px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.login-icon{
+  fill: var(--button-color);
+  width: 28px;
+  height: 28px;
+}
+
+input {
+  height: 30px;
+  width: 90%;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  background: transparent;
+  padding: 5px;
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+input:focus{
+  outline: none;
+    background: var(--sidebar-color);
+}
+
+.container .user-name,
+.container .user-password {
+  background-color: var(--sidebar-color);
+  height: 45px;
+  padding: 5px 5px 5px 5px;
+  margin: 20px 10px;
+  border: 1px solid var(--toggle-color);
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 5px 16px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 16px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 16px 0px rgba(34, 60, 80, 0.2);
+}
+
+.container .user-name img {
+  width: 25px;
+}
+
+.container .user-password img {
+  width: 25px;
+}
+
+.container .btn {
+  width: 295px;
+  margin: 10px;
+  border-radius: 6px;
+  border: none;
+  background: var(--button-color);
+  color: var(--btn-color);
+  font-size: 18px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.user-name-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-name-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: var(--button-color);
+}
+
+.user-password-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-password-icon svg {
+  fill: var(--button-color);
+  width: 28px;
+  height: 28px;
+}
+
+.container .btn:hover {
+  opacity: 0.7;
+}
+
+.message {
+  color: red;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 320px) {
+  .container .logn-in-title {
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  input::placeholder {
+    font-size: 14px;
+  }
+
+  .container .btn {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,81 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+{% block title %}Talaba{% endblock title %}
+{% block style %}
+  <link rel="stylesheet" href="{% static 'staff/talaba_style.css' %}">
+{% endblock style %}
+{% block content %}
+  <div class="info">
+    <div class="info_section1">
+      <img
+        src="{% static '149071.png' %}"
+        alt="Image"
+        srcset=""
+      />
+      <p>{{ student.FIO }}</p>
+    </div>
+    <div class="info_section2">
+      <table class="info-section_table">
+        <tr class="info-section-tr">
+          <td class="info-section-td">F.I.O</td>
+          <td class="info-section-td">{{ student.FIO }}</td>
+        </tr>
+        <tr class="info-section-tr">
+          <td class="info-section-td">ID</td>
+          <td class="info-section-td">{{ student.admin.username }}</td>
+        </tr>
+        <tr class="info-section-tr">
+          <td class="info-section-td">Telefon raqam</td>
+          <td class="info-section-td">{{ student.phone_number }}</td>
+        </tr>
+        <tr class="info-section-tr">
+          <td class="info-section-td">Pasport raqam</td>
+          <td class="info-section-td">{{ student.passport_id }}</td>
+        </tr>
+        <tr class="info-section-tr">
+          <td class="info-section-td">Guruh raqam</td>
+          <td class="info-section-td">{{ student.groups }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="table-class">
+    <div class="table">
+      <table class="main-table">
+        <thead>
+          <tr class="main-table_tr">
+            <th>T/R</th>
+            <th>Kitob nomi</th>
+            <th>Kitob raqami</th>
+            <th>Muhlat</th>
+            <th>Olgan vaqti</th>
+            <th>Bergan vaqti</th>
+          </tr>
+        </thead>
+        {% for acceptbook in acceptbook %}
+          <tbody>
+            <tr class="main-table_tr">
+              <td class="main-table_td">{{ forloop.counter }}</td>
+              <td class="main-table_td">{{ acceptbook.book_name }}</td>
+              <td class="main-table_td">{{ acceptbook.key }}</td>
+              <td class="main-table_td">{{ acceptbook.respite }}</td>
+              <td class="main-table_td">{{ acceptbook.date }}</td>
+            </tr>
+          </tbody>
+        {% endfor %}
+        {% for returnBook in return_book %}
+          <tbody>
+            <tr class="main-table_tr">
+              <td class="main-table_td">{{ forloop.counter }}</td>
+              <td class="main-table_td">{{ returnBook.book_name }}</td>
+              <td class="main-table_td">{{ returnBook.key }}</td>
+              <td class="main-table_td">{{ returnBook.respite }}</td>
+              <td class="main-table_td">{{ returnBook.date }}</td>
+              <td class="main-table_td">{{ returnBook.created }}</td>
+            </tr>
+          </tbody>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+{% endblock content %}

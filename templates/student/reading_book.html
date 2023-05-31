@@ -1,0 +1,35 @@
+{% extends 'student/base.html' %} 
+{% load static %} 
+{% block title %} 
+Kitoblar
+{% endblock title %} 
+{% block style %}
+<link rel="stylesheet" href="{% static 'student/read_book.css' %}">
+{% endblock style %} {% block content %}
+<div class="container">
+  <div class="members-table">
+    <table class="main-table">
+      <thead>
+        <tr class="main-table_tr">
+          <th>T/R</th>
+          <th>Kitob nomi</th>
+          <th>Kitobning inventar raqami</th>
+          <th>Muhlat</th>
+          <th>Olgan vaqti</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for acceptbook in accept_book %}
+        <tr class="main-table_tr">
+          <td class="main-table_td">{{ forloop.counter }}</td>
+          <td class="main-table_td">{{ acceptbook.book_name }}</td>
+          <td class="main-table_td">{{ acceptbook.key }}</td>
+          <td class="main-table_td">{{ acceptbook.respite }}</td>
+          <td class="main-table_td">{{ acceptbook.date }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock content %}

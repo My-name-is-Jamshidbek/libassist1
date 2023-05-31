@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="{% static 'admin/base_style.css' %}" />
+    {% block style %} {% endblock style %}
+    <title>{% block title %} {% endblock title %}</title>
+  </head>
+  <body id="bodyy">
+    <nav>
+      <div class="nav__toggle">
+        <span class="material-symbols-outlined right-icon">
+          chevron_right
+        </span>
+        <span class="material-symbols-outlined menu-icon"> menu </span>
+      </div>
+      <div class="logo-about">
+        <div class="logo-image">
+          <a href="{% url 'staff' %}">
+            <img src="{% static '149071.png' %}" alt="logo" />
+          </a>
+        </div>
+        <a href="{% url 'staff' %}">
+          <span class="logo-name text">LIB.UBTUIT.UZ</span>
+        </a>
+      </div>
+      <div class="menu-items">
+        <div>
+          <ul class="nav-links">
+            <li>
+              <div class="search-box">
+                <span class="material-symbols-outlined search-icon icon">
+                  search
+                </span>
+                <form action="" name="">
+                  <input
+                    type="text"
+                    placeholder="Izlash..."
+                    class="sidebar-input"
+                  />
+                </form>
+              </div>
+            </li>
+            <li class="li">
+              <a href="{% url 'superadmin' %}">
+                <span class="material-symbols-outlined icon"> home </span>
+                <span class="text link-name home-text">Asosiy sahifa</span>
+              </a>
+            </li>
+            <li class="li">
+              <a href="{% url 'superadmin_settings' %}">
+                <span class="material-symbols-outlined icon"> settings </span>
+                <span class="text link-name">Xodimlar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a href="{% url 'all_book_admin' %}">
+                <span class="material-symbols-outlined icon">
+                  library_books
+                </span>
+                <span class="text link-name">Mavjud kitoblar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a href="{% url 'student_select' %}">
+                <span class="material-symbols-outlined icon">
+                    person
+                    </span>
+                <span class="text link-name">Talabalar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a href="{% url 'bookers_admin' %}">
+                <span class="material-symbols-outlined icon">
+                  local_library
+                </span>
+                <span class="text link-name">Faol kitobxonlar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a href="{% url 'contact_a' %}">
+                <span class="material-symbols-outlined icon">
+                  lab_profile
+                </span>
+                <span class="text link-name">Dastur haqida</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mode">
+          <div class="mode-about">
+            <span class="material-symbols-outlined moon"> brightness_2 </span>
+            <span class="material-symbols-outlined sun"> light_mode </span>
+            <span class="text light-mode">light mode</span>
+            <span class="text dark-mode">dark mode</span>
+          </div>
+          <div class="checkbox">
+            <div class="check "></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="distance-main">
+      <section class="dashboard">
+        <div class="top-menu">
+          <div class="top">
+            <div class="top-right-profile">
+              <img
+                src="{% static '149071.png' %}"
+                alt="image"
+                class="user-image"
+              />
+              <div class="user-about">
+                <p class="user-name">
+                  {{ request.user.username }} {{ request.user.last_name }}
+                </p>
+                <p class="user-email"></p>
+              </div>
+              <a href="{% url 'logout' %}"
+                ><span class="material-symbols-outlined exit-icon">
+                  logout
+                </span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="dash-content">
+          <div class="overview">
+            <div class="boxes">{% block content %} {% endblock content %}</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= footer ================= -->
+
+      <footer class="footer">
+        <p class="footer-title">
+          Siz foydalanayotgan sahifa<br />mutlaqo himoyalangan
+        </p>
+      </footer>
+
+      <!-- ================= /footer ================= -->
+    </div>
+
+    <script
+      type="text/javascript"
+      src="{% static 'admin/base.js' %}"
+    ></script>
+  </body>
+</html>

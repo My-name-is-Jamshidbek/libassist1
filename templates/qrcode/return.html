@@ -1,0 +1,53 @@
+{% extends 'staff/base/base.html' %}
+{% load static %}
+{% block title %}
+Kitob qaytarish
+{% endblock title %}
+{% block style %}
+    <link rel="stylesheet" href="{% static 'qrcode/main.css' %}">
+    <style>
+        .submit-div{
+            padding-top: 0;
+        }
+    </style>
+{% endblock style %}
+{% block content %}
+<div class="container">
+    <div class="add-container">
+        <div class="book-info-left">
+            <p class="book-info-top">Kitob ma'lumotlari</p>
+            <div class="book-info-box">
+                <p class="info-left">Kitob nomi :</p>
+                <p class="info-right">{{book_data.book_name}}</p>
+            </div>
+            <div class="book-info-box">
+                <p class="info-left">Muallifi :</p>
+                <p class="info-right">{{book_data.author}}</p>
+            </div>
+            <div class="book-info-box">
+                <p class="info-left">Inventar raqami :</p>
+                <p class="info-right">{{book_data.key}}</p>
+            </div>
+            <p class="book-info-top">Kitobxon ma'lumotlari</p>
+            <div class="book-info-box">
+                <p class="info-left">F.I.Sh :</p>
+                <p class="info-right">{{book_data.student.FIO}}</p>
+            </div>
+            <div class="book-info-box">
+                <p class="info-left">Guruh :</p>
+                <p class="info-right">{{book_data.student.groups}}</p>
+            </div>
+        </div>
+        <div class="give-book-right">
+            <div class="give-book-title-box">
+                <p class="give-book-title">Kitob qaytarish</p>
+            </div>
+            <div class="select-div">
+                <div class="submit-div">
+                    <a href="{% url 'remove' book_data.key %}"  class="submit-btn-a">Qaytarish</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

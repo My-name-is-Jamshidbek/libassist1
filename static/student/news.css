@@ -1,0 +1,74 @@
+/* ========= Colors =========== */
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ===== Colors ===== */
+    --sidebar-color: #fff;
+    --back-color: #F8F9FB;
+    --button-color: #1D90F4;
+    --text-color: #000;
+    --toggle-color: #fff;
+    --search-color: #F8F9FB;
+    --btn-color: #fff;
+  }
+  
+  body.dark{
+    --sidebar-color: #232121;
+    --back-color: #343435;
+    --button-color: #BCB8B8;
+    --text-color: #BCB8B8;
+    --toggle-color: #BCB8B8;
+    --search-color: #BCB8B8;
+    --btn-color: #000;
+  }
+  
+  /* ========= /Colors =========== */
+
+.container{
+    min-height: 84vh;
+    width: 100%;
+    padding: 20px 20px 0 20px;
+}
+
+.new-message-item{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: var(--sidebar-color);
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.news-message-item-top,
+.news-message-item-center,
+.news-message-item-bottom{
+    display: flex;
+    align-items: start;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+.news-message-item-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: var(--button-color);
+    color: var(--btn-color);
+}
+
+.new-message-item-left{
+    padding-right: 2px;
+}
+
+.message-text{
+    width: 100px;
+}
+
+.message-text-write{
+    width: calc(100% - 100px);
+}

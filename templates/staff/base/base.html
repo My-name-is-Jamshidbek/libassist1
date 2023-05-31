@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    
+    {% block style %} {% endblock style %}
+    <link rel="stylesheet" href="{% static 'staff/base/css/base.css' %}" />
+    <title>{% block title %}{% endblock title %}</title>
+  </head>
+  <body id="bodyy">
+    <nav>
+      <div class="nav__toggle">
+        <span class="material-symbols-outlined right-icon">
+          chevron_right
+        </span>
+        <span class="material-symbols-outlined menu-icon"> menu </span>
+      </div>
+      <div class="logo-about">
+        <div class="logo-image">
+          <a href="{% url 'staff' %}">
+            <img src="{% static 'avatar.jpg' %}" alt="logo" />
+          </a>
+        </div>
+        <a href="{% url 'staff' %}">
+          <span class="logo-name text">LIB.UBTUIT.UZ</span>
+        </a>
+      </div>
+      <div class="menu-items">
+        <div>
+          <ul class="nav-links">
+            <li>
+              <div class="search-box">
+                <span class="material-symbols-outlined search-icon icon">
+                  search
+                </span>
+                <form action="" name="">
+                  <input
+                    type="text"
+                    placeholder="Izlash..."
+                    class="sidebar-input"
+                  />
+                </form>
+              </div>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'staff' %}"
+                {%
+                block
+                homeahref
+                %}
+                {%
+                endblock
+                homeahref
+                %}
+              >
+                <span class="material-symbols-outlined icon"> home </span>
+                <span class="text link-name home-text">Asosiy sahifa</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'staff_xizmtalar' %}"
+                {%
+                block
+                xizmatlarahref
+                %}
+                {%
+                endblock
+                xizmatlarahref
+                %}
+              >
+                <span class="material-symbols-outlined icon"> web </span>
+                <span class="text link-name">Xizmatlar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'staff_settings' %}"
+                {%
+                block
+                settingsahref
+                %}
+                {%
+                endblock
+                settingsahref
+                %}
+              >
+                <span class="material-symbols-outlined icon"> settings </span>
+                <span class="text link-name">Sozlamalar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'sendM' %}"
+                {%
+                block
+                sendmahref
+                %}
+                {%
+                endblock
+                sendmahref
+                %}
+              >
+                <span class="material-symbols-outlined icon">
+                  notifications_active
+                </span>
+                <span class="text link-name">Xabar qoldirish</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'all_books' %}"
+                {%
+                block
+                all_booksahref
+                %}
+                {%
+                endblock
+                all_booksahref
+                %}
+              >
+                <span class="material-symbols-outlined icon">
+                  library_books
+                </span>
+                <span class="text link-name">Mavjud Kitoblar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'profile' %}"
+                {%
+                block
+                profileahref
+                %}
+                {%
+                endblock
+                profileahref
+                %}
+              >
+                <span class="material-symbols-outlined icon">
+                  assignment_ind
+                </span>
+                <span class="text link-name">Talaba profili</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'bookers' %}"
+                {%
+                block
+                bookersahref
+                %}
+                {%
+                endblock
+                bookersahref
+                %}
+              >
+                <span class="material-symbols-outlined icon">
+                  local_library
+                </span>
+                <span class="text link-name">Kitobxonlar</span>
+              </a>
+            </li>
+            <li class="li">
+              <a
+                href="{% url 'contact_m' %}"
+                {%
+                block
+                contactahref
+                %}
+                {%
+                endblock
+                contactahref
+                %}
+              >
+                <span class="material-symbols-outlined icon">
+                  lab_profile
+                </span>
+                <span class="text link-name">Dastur haqida</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mode">
+          <div class="mode-about">
+            <span class="material-symbols-outlined moon"> brightness_2 </span>
+            <span class="material-symbols-outlined sun"> light_mode </span>
+            <span class="text light-mode">light mode</span>
+            <span class="text dark-mode">dark mode</span>
+          </div>
+          <div class="checkbox">
+            <div class="check "></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="distance-main">
+      <section class="dashboard">
+        <div class="top-menu">
+          <div class="top">
+            <div class="top-right-profile">
+              <img
+                src="{% static 'avatar.jpg' %}"
+                alt="image"
+                class="user-image"
+              />
+              <div class="user-about">
+                <p class="user-name">F.I.Sh: {{ request.user.first_name }} {{ request.user.last_name }}</p>
+                <p class="user-email">ID: {{ request.user.id }}</p>
+              </div>
+              <a href="{% url 'logout' %}"
+                ><span class="material-symbols-outlined exit-icon">
+                  logout
+                </span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="dash-content">
+          <div class="overview">
+            <div class="boxes">{% block content %} {% endblock content %}</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= footer ================= -->
+
+      <footer class="footer">
+        <p class="footer-title">
+          Siz foydalanayotgan sahifa<br />mutlaqo himoyalangan
+        </p>
+      </footer>
+
+      <!-- ================= /footer ================= -->
+    </div>
+
+    <script
+      type="text/javascript"
+      src="{% static 'staff/base/js/base.js' %}"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+{% extends 'staff/base/base.html' %}
+{% load static %} 
+{% block title %} 
+Kitob qoshish
+{% endblock title %} 
+{% block style %}
+<link rel="stylesheet" href="{% static 'staff/settings/add_book_style.css' %}" />
+{% endblock style %} {% block content %}
+
+<h3 class="add_a_book-title">Kitob qo'shish</h3>
+<div class="inputs-and-buttons-box">
+  <div class="inputs-box">
+    <form method="post" role="form">
+      {% csrf_token %}
+      <div class="inputss-box">
+        <div class="input-top">
+          <input type="text" name="book_name" placeholder="Kitob nomi" required />
+          <input type="text" name="author" placeholder="Muallifi" required />
+        </div>
+        <div class="input-bottom">
+          <input
+            type="text"
+            name="book_type"
+            placeholder="Kitob turi"
+            class="first-input"
+            required
+          />
+          <input
+            type="text"
+            name="key"
+            placeholder="Inventar raqam"
+            class="second-input"
+            required
+          />
+          <input
+            type="text"
+            name="lang"
+            placeholder="Kitob tili"
+            class="third-input"
+            required
+          />
+        </div>
+      </div>
+      <div class="input-buttonss">
+        <button type="submit" class="input-buttons" name="book_type">
+          Qo'shish
+        </button>
+        {% if image %}
+        <a class="a-button" href="data:image/png;base64,{{ image }}" download>
+          Yuklash
+        </a>
+        {% else %}
+        <a class="a-button" href="{% url 'upload_book' %}">
+            Fayl yuklash
+        </a>
+        {% endif %}
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="error-message-div">
+  {% for messages in messages %} <p class="error-message-title">{{ messages }}</p> {% endfor %}
+</div>
+
+<div class="members-table">
+  <table class="main-table">
+    <thead>
+      <tr class="main-table_tr">
+        <th>T/R</th>
+        <th>Kitob nomi</th>
+        <th>Muallifi</th>
+        <th>Inventar raqami</th>
+        <th>Turi</th>
+        <th>Tili</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for book in book %}
+      <tr class="main-table_tr">
+        <td class="main-table_td">{{ forloop.counter }}</td>
+        <td class="main-table_td">{{ book }}</td>
+        <td class="main-table_td">{{ book.author }}</td>
+        <td class="main-table_td">{{ book.key }}</td>
+        <td class="main-table_td">{{ book.book_type }}</td>
+        <td class="main-table_td">{{ book.language }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock content %}

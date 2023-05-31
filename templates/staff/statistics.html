@@ -1,0 +1,37 @@
+{% extends 'staff/base/base.html' %}
+{% load static %}
+
+{% block title %}
+  Kitobhonlar
+{% endblock title %}
+
+{% block style %}
+  <link rel="stylesheet" href="{% static 'staff/services/allreading_style.css' %}">
+{% endblock style %}
+   
+{% block content %}
+<div class="booksers-container">
+<h3 class="give-book-title">Faol kitobxonlar</h3>
+<div class="members-table">
+  <table class="main-table">
+    <thead>
+      <tr class="main-table_tr">
+        <th scope="col">T/R</th>
+        <th scope="col">F.I.Sh</th>
+        <th>Guruh</th>
+        <th scope="col">O'qigan kitoblari soni</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for name in statistics %}
+      <tr class="main-table_tr">
+        <td class="main-table_td">{{ forloop.counter }}</th>
+        <td class="main-table_td">{{ name.FIO }}</td>
+        <td class="main-table_td">{{ name.groups }}</td>
+        <td class="main-table_td">{{ name.return_book_set.all.count }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock content %}

@@ -1,0 +1,73 @@
+{% extends 'staff/base/base.html' %}
+{% load static %}
+{% block style %}
+    <link rel="stylesheet" href="{% static 'staff/services/give_book_style.css' %}" />
+{% endblock style %}
+
+{% block title %}
+    Kitob qaytarish
+{% endblock title %}
+
+
+{% block content %}
+<div class="book-container">
+<h3 class="give-book-title">Talaba profili</h3>
+<div class="select-div">
+    <form method="post">
+        {% csrf_token %}
+        <select name="group" class="form-control" onchange="this.form.submit()">
+            <option>Guruh tanlash</option>
+            {% for group_id in group %}
+            <option value="{{ group_id.id }}">{{ group_id.number }}</option>
+            {% endfor %}
+        </select>
+    </form>
+</div>
+<table class="main-table">
+    <h4 class="group-students">{{ g }} Guruh talabalari</h4>
+    <thead>
+        <tr class="main-table_tr">
+            <th>T/r</th>
+            <th>F.I.Sh</th>
+            <th>Guruh</th>
+            <th>Pasport ID</th>
+            <th>Telefon raqam</th>
+            <th>Tanlash</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for student in member %}
+        <tr class="main-table_tr">
+            <th class="main-table_td">{{ forloop.counter }}</th>
+            <th class="main-table_td">{{ student.FIO }}</th>
+            <th class="main-table_td">{{ student.groups }}
+            </th>
+            <th class="main-table_td">{{ student.passport_id }}</th>
+            <th class="main-table_td">{{ student.phone_number }}</th>
+            <th class="main-table_td pen-box">
+                <div class="pen-boxx">
+                    <a href="profile/{{ student.id }}">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-pen-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+
+            </th>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
+
+{% endblock content %}
+

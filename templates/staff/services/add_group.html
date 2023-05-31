@@ -1,0 +1,280 @@
+{% extends 'staff/base/base.html' %}
+{% load static %}
+{% block style %}
+    <link rel="stylesheet" href="{% static 'staff/services/add_group.css' %}" />
+{% endblock style %}
+{% block content %}
+<h3 class="give-book-title">Guruh qo'shish</h3>
+<div class="choose-input">
+  <input type="text" placeholder="Guruh nomer" required/>
+  <button>Qo'shish</button>
+</div>
+<h3 class="existing-members">Mavjud guruhlar</h3>
+<div class="members-table">
+  <table class="main-table">
+    <thead>
+      <tr class="main-table_tr">
+        <th>T/R</th>
+        <th>Guruh</th>
+        <th>Talabalar soni</th>
+        <th>Qo'shilgan vaqti</th>
+        <th>!!!!!!!!!!!!!!!!!!</th>
+        <th>Tanlash</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+      <tr class="main-table_tr">
+        <td class="main-table_td">1</td>
+        <td class="main-table_td">941-21</td>
+        <td class="main-table_td">24</td>
+        <td class="main-table_td">2023,March 24, 11:11p.m</td>
+        <td class="main-table_td">!!!!!!!!!!!!!</td>
+        <td class="main-table_td pen-box">
+          <div class="pen-boxx">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-pen-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"
+                />
+              </svg>
+            </a>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+{% endblock content %}

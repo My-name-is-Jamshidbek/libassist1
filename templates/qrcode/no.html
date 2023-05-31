@@ -1,0 +1,25 @@
+{% extends 'staff/base/base.html' %}
+{% load static %}
+{% block title %}
+Kitob berish
+{% endblock title %}
+{% block style %}
+    <style>
+        .container{
+            min-height: 76vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .error-message-p{
+            font-size: 20px;
+            color: var(--text-color);
+        }
+    </style>
+{% endblock style %}
+{% block content %}
+<div class="container">
+<p class="error-message-p">Kitob mavjud emas!!</p>
+</div>
+{% endblock content %}

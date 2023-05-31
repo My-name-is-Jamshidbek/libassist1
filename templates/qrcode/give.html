@@ -1,0 +1,72 @@
+{% extends 'staff/base/base.html' %}
+{% load static %}
+{% block title %}
+Kitob berish
+{% endblock title %}
+{% block style %}
+    <link rel="stylesheet" href="{% static 'qrcode/main.css' %}">
+{% endblock style %}
+{% block content %}
+<div class="container">
+    <div class="add-container">
+        <div class="book-info-left">
+            <p class="book-info-top">Kitob ma'lumotlari</p>
+            <div class="book-info-box">
+                <p class="info-left">Kitob nomi :</p>
+                <p class="info-right">{{book_data.book_name}}</p>
+            </div>
+            <div class="book-info-box">
+                <p class="info-left">Muallifi :</p>
+                <p class="info-right">{{book_data.author}}</p>
+            </div>
+            <div class="book-info-box">
+                <p class="info-left">Inventar raqami :</p>
+                <p class="info-right">{{book_data.key}}</p>
+            </div>
+            <div class="book-info-box">
+                <p class="info-left">Kitob turi :</p>
+                <p class="info-right">{{book_data.book_type}}</p>
+            </div>
+            <div class="book-info-box">
+                <p class="info-left">Kitob tili :</p>
+                <p class="info-right">{{book_data.language}}</p>
+            </div>
+        </div>
+        <div class="give-book-right">
+            <div class="give-book-title-box">
+                <p class="give-book-title">Kitob berish</p>
+            </div>
+            <div class="select-div">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="group-select-div">
+                        <select name="group" class="form-control" onchange="this.form.submit()">
+                            <option value="{{changed_group_value}}">{{changed_group_name}}</option>
+                            {% for group_id in groups %}
+                            <option value="{{ group_id.id }}">{{ group_id.number }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="student-select-div">
+                        <select name="student" class="form-controll">
+                            <option value="nan">Kitobxonni tanlash</option>
+                            {% for group_id in students %}
+                            <option value="{{ group_id.id }}">{{ group_id.FIO }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="time-select-div">
+                        <input type="number" name="respite" placeholder="Muhlat (kun)" />
+                        {% for message in messages %}
+                          <p class="error-message">{{ message }}</p>
+                        {% endfor %}
+                    </div>
+                    <div class="submit-div">
+                        <button type="submit" class="submit-btn">Yuborish</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
