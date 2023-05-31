@@ -51,56 +51,10 @@ def student_upload(request):
         if x:
             xato_s+=f"{x} nafar a'zo qo'shilmadi! "+q[:-1]+" - qatorlar"
         messages.success(request, f"{s} nafar a'zo qo'shildi!"+xato_s)
-"""
-        group = request.POST['group']
-        dataset = Dataset()
-        new_book = request.FILES['file']
-        group_id = Group.objects.get(id=group)
-
-        if not new_book.name.endswith('xlsx'):
-            return render(request, 'staff/file_upload/upload.html')
-        imported_data = dataset.load(new_book.read(), format='xlsx')
-        i, x, q, s = 0, 0, "", 0
-        for data in imported_data:
-            i += 1
-            try:
-                user = CustomUser.objects.create_user(
-                    username=data[15],
-                    password=data[16],
-                    user_type=3
-                )
-                user.student.FIO = data[1]
-                user.student.passport_id = data[2]
-                user.student.JSHSHIR = data[3]
-                user.student.fuqarolik = data[4]
-                user.student.country = data[5]
-                user.student.region = data[7]
-                user.student.tuman = data[8]
-                user.student.gender = data[7]
-                user.student.brithday = data[10]
-                user.student.faculty = data[11]
-                user.student.groups = group_id
-                user.student.typeofEducation = data[12]
-                user.student.formofEducation = data[13]
-                user.student.phone_number = data[14]
-                user.save()
-                s+=1
-            except Exception as e:
-                print(f"upload_student error: {e}")
-                x+=1
-                q+=f"{i},"
-        xato_s = ""
-        if x:
-            xato_s+=f"{x} nafar a'zo qo'shilmadi! "+q[:-1]+" - qatorlar"
-        messages.success(request, f"{s} nafar a'zo qo'shildi!"+xato_s)
-
     context = {
-        'group': [[]],
+        'group': Group.objects.all(),
     }
     return render(request, 'staff/settings/upload_student_data.html', context)
-    return render(request, 'staff/settings/upload_book_data.html')
-"""
-    return render(request, 'staff/settings/upload_book_data.html')
 
 
 def book_upload1(request):
