@@ -7,12 +7,12 @@ from tablib import Dataset
 
 def student_upload(request):
     if request.method == 'POST':
-        """dataset = Dataset()
+        dataset = Dataset()
         new_book = request.FILES['file']
         imported_data = dataset.load(new_book.read(), format='xlsx')
-        i, x, q, s = 0, 0, "", 0
+        i, x, q, s,n = 0, 0, "", 0,0
         for data in imported_data:
-            print(1)
+            print(i)
             i += 1
             group = data[12]
             print(Group.objects.filter(number=group))
@@ -23,7 +23,7 @@ def student_upload(request):
             group_id = Group.objects.get(number=group)
             try:
                 user = CustomUser.objects.create_user(
-                    username=data[1],
+                    username=data[0],
                     password=data[8],
                     user_type=3
                 )
@@ -93,10 +93,14 @@ def student_upload(request):
         if x:
             xato_s+=f"{x} nafar a'zo qo'shilmadi! "+q[:-1]+" - qatorlar"
         messages.success(request, f"{s} nafar a'zo qo'shildi!"+xato_s)
+
     context = {
-        'group': Group.objects.all(),
+        'group': [[]],
     }
     return render(request, 'staff/settings/upload_student_data.html', context)
+    return render(request, 'staff/settings/upload_book_data.html')
+"""
+    return render(request, 'staff/settings/upload_book_data.html')
 
 
 def book_upload1(request):
