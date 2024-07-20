@@ -118,32 +118,34 @@ def book_upload(request):
             n += 1
             if data[2]:use_data = data
             if data[3]:
-                if data[3] in ids:
-                    err.append("Qator: " + str(n) + " Sabab: Takrorlangan! Qiymat: " + str(data[3]))
-                elif str(data[3]).isdigit():
-                    ids.append(data[3])
-                    book_c += 1
-                    try:
-                        value = Book(
-                        book_name=use_data[2],
-                        author=use_data[5],
-                        organization=use_data[7],
-                        publishing=use_data[6],
-                        book_type=use_data[9],
-                        language=use_data[10],
-                        year=use_data[11],
-                        beti=use_data[13],
-                        isbn=use_data[14],
-                        money=use_data[15],
-                        key=data[3],
-                        )
-                        value.save()
-                    except Exception as e:
-                        err.append("Qator: " + str(n) + " Sabab: "+str(e)+" Qiymat: " + str(data[3]))
-                else:
-                    err.append("Qator: " + str(n) + " Sabab: " + str("Ma'lumot turi noto'g'ri") + " Qiymat: " + str(data[3]))
-            elif not str(data[3]).isdigit():
-                    err.append("Qator: " + str(n) + " Sabab: Qiymat mavjud emas! Qiymat: " + str(data[3]))
+                try:
+                    int(data[3])
+                    if int(data[3]) in ids:
+                        err.append("Qator: " + str(n) + " Sabab: Takrorlangan! Qiymat: " + str(int(data[3])))
+                    elif str(int(data[3])).isdigit():
+                        ids.append(int(data[3]))
+                        book_c += 1
+                        try:
+                            value = Book(
+                            book_name=use_data[2],
+                            author=use_data[5],
+                            organization=use_data[7],
+                            publishing=use_data[6],
+                            book_type=use_data[9],
+                            language=use_data[10],
+                            year=use_data[11],
+                            beti=use_data[13],
+                            isbn=use_data[14],
+                            money=use_data[15],
+                            key=int(data[3]),
+                            )
+                            value.save()
+                        except Exception as e:
+                            err.append("Qator: " + str(n) + " Sabab: "+str(e)+" Qiymat: " + str(int(data[3])))
+                    else:
+                        err.append("Qator: " + str(n) + " Sabab: " + str("Ma'lumot turi noto'g'ri") + " Qiymat: " + str(int(data[3])))
+                except Exception as e:
+                    err.append("Qator: " + str(n)+" Sabab: " + str(e) +" Qiymat: " + str(data[3]))
             else:
                 err.append("Qator: " + str(n)+" Sabab: Malumot mavjud emas! Qiymat: " + str(data[3]))
         messages.success(request, f"{book_c} ta kitob qo'shildi!")
@@ -152,4 +154,6 @@ def book_upload(request):
         #     print(use_data)
         #     messages.success(request, "Ma'lumotlarni yuklash mobaynida xatolik yuzaga keldi!")
         print(err)
+        for i in err:
+            print(i)
     return render(request, 'staff/settings/upload_book_data.html')

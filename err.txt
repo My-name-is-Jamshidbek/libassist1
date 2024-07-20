@@ -1,4 +1,4 @@
-Qator: 15 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 15 Sabab: Malumot mavjud emas! Qiymat: None
 Qator: 514 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 304
 Qator: 515 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 305
 Qator: 516 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 306
@@ -76,8 +76,8 @@ Qator: 824 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 182
 Qator: 825 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 186
 Qator: 826 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 185
 Qator: 827 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 183
-Qator: 858 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 859 Sabab: Qiymat mavjud emas! Qiymat: None
+Qator: 858 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 859 Sabab: Malumot mavjud emas! Qiymat: None
 Qator: 905 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1751
 Qator: 906 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1750
 Qator: 907 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1749
@@ -94,6 +94,9 @@ Qator: 917 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1544
 Qator: 918 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1553
 Qator: 919 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1546
 Qator: 920 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1549
+Qator: 945 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 946 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 947 Sabab: Malumot mavjud emas! Qiymat: None
 Qator: 960 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 5267
 Qator: 961 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3897
 Qator: 962 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3894
@@ -113,10 +116,10 @@ Qator: 1119 Sabab: Takrorlangan! Qiymat: 7444
 Qator: 1120 Sabab: Takrorlangan! Qiymat: 7445
 Qator: 1121 Sabab: Takrorlangan! Qiymat: 7446
 Qator: 1122 Sabab: Takrorlangan! Qiymat: 7447
-Qator: 1183 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1115/A
-Qator: 1216 Sabab: Ma'lumot turi noto'g'ri Qiymat: 372/б
-Qator: 1286 Sabab: Ma'lumot turi noto'g'ri Qiymat: 245/А
-Qator: 1354 Sabab: Ma'lumot turi noto'g'ri Qiymat: 248/A
+Qator: 1183 Sabab: invalid literal for int() with base 10: '1115/A' Qiymat: 1115/A
+Qator: 1216 Sabab: invalid literal for int() with base 10: '372/б' Qiymat: 372/б
+Qator: 1286 Sabab: invalid literal for int() with base 10: '245/А' Qiymat: 245/А
+Qator: 1354 Sabab: invalid literal for int() with base 10: '248/A' Qiymat: 248/A
 Qator: 1395 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3882
 Qator: 1396 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3888
 Qator: 1397 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3889
@@ -143,7 +146,7 @@ Qator: 1417 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6440
 Qator: 1418 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 3902
 Qator: 1419 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6441
 Qator: 1420 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6442
-Qator: 1435 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2279/А
+Qator: 1435 Sabab: invalid literal for int() with base 10: '2279/А' Qiymat: 2279/А
 Qator: 1453 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1216
 Qator: 1454 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1220
 Qator: 1455 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1218
@@ -160,32 +163,51 @@ Qator: 1517 Sabab: Takrorlangan! Qiymat: 5569
 Qator: 1518 Sabab: Takrorlangan! Qiymat: 5570
 Qator: 1519 Sabab: Takrorlangan! Qiymat: 5571
 Qator: 1561 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6539
-Qator: 1609 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1280.8
 Qator: 1633 Sabab: Takrorlangan! Qiymat: 3855
-Qator: 1634 Sabab: Ma'lumot turi noto'g'ri Qiymat: 3859.
-Qator: 1668 Sabab: Ma'lumot turi noto'g'ri Qiymat: 410/А
-Qator: 1676 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 1771 Sabab: Ma'lumot turi noto'g'ri Qiymat: 240/Б
-Qator: 1772 Sabab: Ma'lumot turi noto'g'ri Qiymat: 49/А
-Qator: 1773 Sabab: Ma'lumot turi noto'g'ri Qiymat: 49/Б
-Qator: 1774 Sabab: Ma'lumot turi noto'g'ri Qiymat: 49/В
-Qator: 1791 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1097\А
-Qator: 1806 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1103/A
-Qator: 1962 Sabab: Ma'lumot turi noto'g'ri Qiymat: 756/A
-Qator: 1963 Sabab: Ma'lumot turi noto'g'ri Qiymat: 426/А
-Qator: 2057 Sabab: Ma'lumot turi noto'g'ri Qiymat: 243\А
-Qator: 2058 Sabab: Ma'lumot turi noto'g'ri Qiymat: 243\Б
-Qator: 2059 Sabab: Ma'lumot turi noto'g'ri Qiymat: 243\В
-Qator: 2084 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1378\А
-Qator: 2218 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1449/А
-Qator: 2225 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1293/А
-Qator: 2238 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 2291 Sabab: Ma'lumot turi noto'g'ri Qiymat: 97/А
+Qator: 1634 Sabab: invalid literal for int() with base 10: '3859.' Qiymat: 3859.
+Qator: 1668 Sabab: invalid literal for int() with base 10: '410/А' Qiymat: 410/А
+Qator: 1676 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 1771 Sabab: invalid literal for int() with base 10: '240/Б' Qiymat: 240/Б
+Qator: 1772 Sabab: invalid literal for int() with base 10: '49/А' Qiymat: 49/А
+Qator: 1773 Sabab: invalid literal for int() with base 10: '49/Б' Qiymat: 49/Б
+Qator: 1774 Sabab: invalid literal for int() with base 10: '49/В' Qiymat: 49/В
+Qator: 1791 Sabab: invalid literal for int() with base 10: '1097\\А' Qiymat: 1097\А
+Qator: 1806 Sabab: invalid literal for int() with base 10: '1103/A' Qiymat: 1103/A
+Qator: 1962 Sabab: invalid literal for int() with base 10: '756/A' Qiymat: 756/A
+Qator: 1963 Sabab: invalid literal for int() with base 10: '426/А' Qiymat: 426/А
+Qator: 2017 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6936
+Qator: 2018 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6937
+Qator: 2019 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6938
+Qator: 2020 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6939
+Qator: 2021 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6940
+Qator: 2022 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6941
+Qator: 2023 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6942
+Qator: 2024 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6943
+Qator: 2025 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6944
+Qator: 2026 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6945
+Qator: 2027 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6946
+Qator: 2028 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6947
+Qator: 2029 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6948
+Qator: 2030 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6949
+Qator: 2031 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6950
+Qator: 2032 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6951
+Qator: 2033 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6952
+Qator: 2034 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6953
+Qator: 2035 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6954
+Qator: 2036 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6955
+Qator: 2057 Sabab: invalid literal for int() with base 10: '243\\А' Qiymat: 243\А
+Qator: 2058 Sabab: invalid literal for int() with base 10: '243\\Б' Qiymat: 243\Б
+Qator: 2059 Sabab: invalid literal for int() with base 10: '243\\В' Qiymat: 243\В
+Qator: 2084 Sabab: invalid literal for int() with base 10: '1378\\А' Qiymat: 1378\А
+Qator: 2218 Sabab: invalid literal for int() with base 10: '1449/А' Qiymat: 1449/А
+Qator: 2225 Sabab: invalid literal for int() with base 10: '1293/А' Qiymat: 1293/А
+Qator: 2238 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 2291 Sabab: invalid literal for int() with base 10: '97/А' Qiymat: 97/А
 Qator: 2297 Sabab: Takrorlangan! Qiymat: 4884
-Qator: 2306 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1017/А
-Qator: 2308 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1286/А
-Qator: 2347 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1294/А
-Qator: 2450 Sabab: Ma'lumot turi noto'g'ri Qiymat: 52/В
+Qator: 2306 Sabab: invalid literal for int() with base 10: '1017/А' Qiymat: 1017/А
+Qator: 2308 Sabab: invalid literal for int() with base 10: '1286/А' Qiymat: 1286/А
+Qator: 2347 Sabab: invalid literal for int() with base 10: '1294/А' Qiymat: 1294/А
+Qator: 2450 Sabab: invalid literal for int() with base 10: '52/В' Qiymat: 52/В
 Qator: 2488 Sabab: Takrorlangan! Qiymat: 737
 Qator: 2489 Sabab: Takrorlangan! Qiymat: 738
 Qator: 2490 Sabab: Takrorlangan! Qiymat: 739
@@ -210,54 +232,54 @@ Qator: 2649 Sabab: Takrorlangan! Qiymat: 2585
 Qator: 2650 Sabab: Takrorlangan! Qiymat: 2586
 Qator: 2651 Sabab: Takrorlangan! Qiymat: 2587
 Qator: 2652 Sabab: Takrorlangan! Qiymat: 2588
-Qator: 2653 Sabab: Ma'lumot turi noto'g'ri Qiymat: 34/А
-Qator: 2654 Sabab: Ma'lumot turi noto'g'ri Qiymat: 34/Б
-Qator: 2655 Sabab: Ma'lumot turi noto'g'ri Qiymat: 34/В
-Qator: 2656 Sabab: Ma'lumot turi noto'g'ri Qiymat: 38/А
-Qator: 2657 Sabab: Ma'lumot turi noto'g'ri Qiymat: 38/Б
-Qator: 2658 Sabab: Ma'lumot turi noto'g'ri Qiymat: 38/В
-Qator: 2659 Sabab: Ma'lumot turi noto'g'ri Qiymat: 550/А
-Qator: 2662 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1081/A
+Qator: 2653 Sabab: invalid literal for int() with base 10: '34/А' Qiymat: 34/А
+Qator: 2654 Sabab: invalid literal for int() with base 10: '34/Б' Qiymat: 34/Б
+Qator: 2655 Sabab: invalid literal for int() with base 10: '34/В' Qiymat: 34/В
+Qator: 2656 Sabab: invalid literal for int() with base 10: '38/А' Qiymat: 38/А
+Qator: 2657 Sabab: invalid literal for int() with base 10: '38/Б' Qiymat: 38/Б
+Qator: 2658 Sabab: invalid literal for int() with base 10: '38/В' Qiymat: 38/В
+Qator: 2659 Sabab: invalid literal for int() with base 10: '550/А' Qiymat: 550/А
+Qator: 2662 Sabab: invalid literal for int() with base 10: '1081/A' Qiymat: 1081/A
 Qator: 2684 Sabab: Takrorlangan! Qiymat: 854
 Qator: 2685 Sabab: Takrorlangan! Qiymat: 847
 Qator: 2686 Sabab: Takrorlangan! Qiymat: 848
 Qator: 2687 Sabab: Takrorlangan! Qiymat: 846
 Qator: 2688 Sabab: Takrorlangan! Qiymat: 855
-Qator: 2696 Sabab: Ma'lumot turi noto'g'ri Qiymat: 240\А
-Qator: 2723 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1491/А
-Qator: 2724 Sabab: Ma'lumot turi noto'g'ri Qiymat: 410/Д
-Qator: 2725 Sabab: Ma'lumot turi noto'g'ri Qiymat: 410/Б
+Qator: 2696 Sabab: invalid literal for int() with base 10: '240\\А' Qiymat: 240\А
+Qator: 2723 Sabab: invalid literal for int() with base 10: '1491/А' Qiymat: 1491/А
+Qator: 2724 Sabab: invalid literal for int() with base 10: '410/Д' Qiymat: 410/Д
+Qator: 2725 Sabab: invalid literal for int() with base 10: '410/Б' Qiymat: 410/Б
 Qator: 2748 Sabab: Takrorlangan! Qiymat: 10967
 Qator: 2749 Sabab: Takrorlangan! Qiymat: 10964
 Qator: 2750 Sabab: Takrorlangan! Qiymat: 10965
 Qator: 2751 Sabab: Takrorlangan! Qiymat: 10966
 Qator: 2752 Sabab: Takrorlangan! Qiymat: 10968
 Qator: 2785 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7146
-Qator: 2797 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1362\2A
-Qator: 2864 Sabab: Ma'lumot turi noto'g'ri Qiymat: 939/А
+Qator: 2797 Sabab: invalid literal for int() with base 10: '1362\\2A' Qiymat: 1362\2A
+Qator: 2864 Sabab: invalid literal for int() with base 10: '939/А' Qiymat: 939/А
 Qator: 2900 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 803
 Qator: 2901 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 548
-Qator: 2908 Sabab: Ma'lumot turi noto'g'ri Qiymat: 634/А
-Qator: 2910 Sabab: Ma'lumot turi noto'g'ri Qiymat: 5205-5224
-Qator: 2911 Sabab: Ma'lumot turi noto'g'ri Qiymat: 372/А
-Qator: 2912 Sabab: Ma'lumot turi noto'g'ri Qiymat: 664/А
+Qator: 2908 Sabab: invalid literal for int() with base 10: '634/А' Qiymat: 634/А
+Qator: 2910 Sabab: invalid literal for int() with base 10: '5205-5224' Qiymat: 5205-5224
+Qator: 2911 Sabab: invalid literal for int() with base 10: '372/А' Qiymat: 372/А
+Qator: 2912 Sabab: invalid literal for int() with base 10: '664/А' Qiymat: 664/А
 Qator: 2948 Sabab: Takrorlangan! Qiymat: 5798
 Qator: 2983 Sabab: Takrorlangan! Qiymat: 8268
 Qator: 2984 Sabab: Takrorlangan! Qiymat: 8269
 Qator: 2985 Sabab: Takrorlangan! Qiymat: 8270
-Qator: 2986 Sabab: Ma'lumot turi noto'g'ri Qiymat: 52/Б
+Qator: 2986 Sabab: invalid literal for int() with base 10: '52/Б' Qiymat: 52/Б
 Qator: 2990 Sabab: Takrorlangan! Qiymat: 2094
 Qator: 2991 Sabab: Takrorlangan! Qiymat: 2095
 Qator: 2992 Sabab: Takrorlangan! Qiymat: 2096
 Qator: 2993 Sabab: Takrorlangan! Qiymat: 2097
 Qator: 2994 Sabab: Takrorlangan! Qiymat: 2098
-Qator: 2998 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2038/А
-Qator: 3007 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 4418
+Qator: 2998 Sabab: invalid literal for int() with base 10: '2038/А' Qiymat: 2038/А
+Qator: 3007 Sabab: Malumot mavjud emas! Qiymat: None
 Qator: 3008 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 4419
-Qator: 3019 Sabab: Ma'lumot turi noto'g'ri Qiymat: 656/А
-Qator: 3038 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 3039 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 3066 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1558/А
+Qator: 3019 Sabab: invalid literal for int() with base 10: '656/А' Qiymat: 656/А
+Qator: 3038 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 3039 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 3066 Sabab: invalid literal for int() with base 10: '1558/А' Qiymat: 1558/А
 Qator: 3080 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1467
 Qator: 3081 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1468
 Qator: 3082 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1469
@@ -267,10 +289,10 @@ Qator: 3085 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1473
 Qator: 3086 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1474
 Qator: 3087 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1475
 Qator: 3088 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1476
-Qator: 3109 Sabab: Ma'lumot turi noto'g'ri Qiymat: 408/А
-Qator: 3124 Sabab: Ma'lumot turi noto'g'ri Qiymat: 601/А
-Qator: 3126 Sabab: Ma'lumot turi noto'g'ri Qiymat: 590/А
-Qator: 3313 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2010/А
+Qator: 3109 Sabab: invalid literal for int() with base 10: '408/А' Qiymat: 408/А
+Qator: 3124 Sabab: invalid literal for int() with base 10: '601/А' Qiymat: 601/А
+Qator: 3126 Sabab: invalid literal for int() with base 10: '590/А' Qiymat: 590/А
+Qator: 3313 Sabab: invalid literal for int() with base 10: '2010/А' Qiymat: 2010/А
 Qator: 3322 Sabab: Takrorlangan! Qiymat: 7567
 Qator: 3323 Sabab: Takrorlangan! Qiymat: 7568
 Qator: 3324 Sabab: Takrorlangan! Qiymat: 7569
@@ -285,34 +307,35 @@ Qator: 3332 Sabab: Takrorlangan! Qiymat: 10673
 Qator: 3333 Sabab: Takrorlangan! Qiymat: 10674
 Qator: 3334 Sabab: Takrorlangan! Qiymat: 10675
 Qator: 3335 Sabab: Takrorlangan! Qiymat: 10676
-Qator: 3371 Sabab: Ma'lumot turi noto'g'ri Qiymat: 584/А
+Qator: 3371 Sabab: invalid literal for int() with base 10: '584/А' Qiymat: 584/А
 Qator: 3444 Sabab: Takrorlangan! Qiymat: 6794
 Qator: 3445 Sabab: Takrorlangan! Qiymat: 6795
 Qator: 3446 Sabab: Takrorlangan! Qiymat: 6796
 Qator: 3447 Sabab: Takrorlangan! Qiymat: 6797
 Qator: 3448 Sabab: Takrorlangan! Qiymat: 6798
-Qator: 3530 Sabab: Ma'lumot turi noto'g'ri Qiymat: 587/А
-Qator: 3575 Sabab: Ma'lumot turi noto'g'ri Qiymat: 625/А
-Qator: 3576 Sabab: Ma'lumot turi noto'g'ri Qiymat: 896/А
+Qator: 3530 Sabab: invalid literal for int() with base 10: '587/А' Qiymat: 587/А
+Qator: 3575 Sabab: invalid literal for int() with base 10: '625/А' Qiymat: 625/А
+Qator: 3576 Sabab: invalid literal for int() with base 10: '896/А' Qiymat: 896/А
 Qator: 3625 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 9007
-Qator: 3702 Sabab: Ma'lumot turi noto'g'ri Qiymat: 667/А
-Qator: 3810 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 5746
-Qator: 3811 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 7788
-Qator: 3827 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 3828 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 3829 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 3835 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1258/А
-Qator: 3842 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 6552
+Qator: 3702 Sabab: invalid literal for int() with base 10: '667/А' Qiymat: 667/А
+Qator: 3810 Sabab: Takrorlangan! Qiymat: 5746
+Qator: 3811 Sabab: Takrorlangan! Qiymat: 7788
+Qator: 3827 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 3828 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 3829 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 3835 Sabab: invalid literal for int() with base 10: '1258/А' Qiymat: 1258/А
+Qator: 3842 Sabab: Takrorlangan! Qiymat: 6552
 Qator: 3950 Sabab: Takrorlangan! Qiymat: 5839
-Qator: 3957 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 4026 Sabab: Ma'lumot turi noto'g'ri Qiymat: 7659-7664
+Qator: 3957 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 4026 Sabab: invalid literal for int() with base 10: '7659-7664' Qiymat: 7659-7664
 Qator: 4213 Sabab: Takrorlangan! Qiymat: 11201
-Qator: 4349 Sabab: Ma'lumot turi noto'g'ri Qiymat: 233/А
-Qator: 4366 Sabab: Ma'lumot turi noto'g'ri Qiymat: 155/А
+Qator: 4349 Sabab: invalid literal for int() with base 10: '233/А' Qiymat: 233/А
+Qator: 4366 Sabab: invalid literal for int() with base 10: '155/А' Qiymat: 155/А
 Qator: 4405 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7644
 Qator: 4406 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7645
-Qator: 4419 Sabab: Ma'lumot turi noto'g'ri Qiymat: 3192\А
-Qator: 4603 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2194/А
+Qator: 4419 Sabab: invalid literal for int() with base 10: '3192\\А' Qiymat: 3192\А
+Qator: 4603 Sabab: invalid literal for int() with base 10: '2194/А' Qiymat: 2194/А
+Qator: 4626 Sabab: Malumot mavjud emas! Qiymat: None
 Qator: 4655 Sabab: Takrorlangan! Qiymat: 2508
 Qator: 4656 Sabab: Takrorlangan! Qiymat: 2509
 Qator: 4657 Sabab: Takrorlangan! Qiymat: 2510
@@ -324,7 +347,7 @@ Qator: 4662 Sabab: Takrorlangan! Qiymat: 2515
 Qator: 4663 Sabab: Takrorlangan! Qiymat: 2516
 Qator: 4664 Sabab: Takrorlangan! Qiymat: 2517
 Qator: 4665 Sabab: Takrorlangan! Qiymat: 2518
-Qator: 4677 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1163\А
+Qator: 4677 Sabab: invalid literal for int() with base 10: '1163\\А' Qiymat: 1163\А
 Qator: 4703 Sabab: Takrorlangan! Qiymat: 2499
 Qator: 4704 Sabab: Takrorlangan! Qiymat: 2500
 Qator: 4705 Sabab: Takrorlangan! Qiymat: 2501
@@ -334,8 +357,8 @@ Qator: 4708 Sabab: Takrorlangan! Qiymat: 2504
 Qator: 4709 Sabab: Takrorlangan! Qiymat: 2505
 Qator: 4710 Sabab: Takrorlangan! Qiymat: 2506
 Qator: 4711 Sabab: Takrorlangan! Qiymat: 2507
-Qator: 4732 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8782 Ф
-Qator: 4835 Sabab: Ma'lumot turi noto'g'ri Qiymat: 884/А
+Qator: 4732 Sabab: invalid literal for int() with base 10: '8782 Ф' Qiymat: 8782 Ф
+Qator: 4835 Sabab: invalid literal for int() with base 10: '884/А' Qiymat: 884/А
 Qator: 4844 Sabab: Takrorlangan! Qiymat: 2555
 Qator: 4854 Sabab: Takrorlangan! Qiymat: 9564
 Qator: 4884 Sabab: Takrorlangan! Qiymat: 8574
@@ -354,9 +377,9 @@ Qator: 5014 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1591
 Qator: 5015 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1592
 Qator: 5016 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1593
 Qator: 5017 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1594
-Qator: 5037 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8245 Ф
-Qator: 5125 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8136 Ф
-Qator: 5321 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 6162
+Qator: 5037 Sabab: invalid literal for int() with base 10: '8245 Ф' Qiymat: 8245 Ф
+Qator: 5125 Sabab: invalid literal for int() with base 10: '8136 Ф' Qiymat: 8136 Ф
+Qator: 5321 Sabab: Takrorlangan! Qiymat: 6162
 Qator: 5339 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6007
 Qator: 5340 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6008
 Qator: 5341 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6009
@@ -369,52 +392,56 @@ Qator: 5347 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6015
 Qator: 5348 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6016
 Qator: 5349 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6017
 Qator: 5350 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6018
-Qator: 5375 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8873-8878
-Qator: 5377 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8891-8896
-Qator: 5394 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8825-8842, 8826
-Qator: 5395 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6073-6079
-Qator: 5423 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8855-8860
+Qator: 5375 Sabab: invalid literal for int() with base 10: '8873-8878' Qiymat: 8873-8878
+Qator: 5377 Sabab: invalid literal for int() with base 10: '8891-8896' Qiymat: 8891-8896
+Qator: 5394 Sabab: invalid literal for int() with base 10: '8825-8842, 8826' Qiymat: 8825-8842, 8826
+Qator: 5395 Sabab: invalid literal for int() with base 10: '6073-6079' Qiymat: 6073-6079
+Qator: 5423 Sabab: invalid literal for int() with base 10: '8855-8860' Qiymat: 8855-8860
 Qator: 5442 Sabab: Takrorlangan! Qiymat: 8806
 Qator: 5443 Sabab: Takrorlangan! Qiymat: 8807
 Qator: 5444 Sabab: Takrorlangan! Qiymat: 8808
 Qator: 5445 Sabab: Takrorlangan! Qiymat: 8809
 Qator: 5446 Sabab: Takrorlangan! Qiymat: 8810
 Qator: 5447 Sabab: Takrorlangan! Qiymat: 8811
-Qator: 5484 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2612/A
+Qator: 5477 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 5479 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 5484 Sabab: invalid literal for int() with base 10: '2612/A' Qiymat: 2612/A
 Qator: 5487 Sabab: Takrorlangan! Qiymat: 6154
 Qator: 5488 Sabab: Takrorlangan! Qiymat: 6155
 Qator: 5489 Sabab: Takrorlangan! Qiymat: 6156
-Qator: 5497 Sabab: Ma'lumot turi noto'g'ri Qiymat: 441/A
-Qator: 5502 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1106/A
-Qator: 5516 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6019-6029
-Qator: 5517 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6030-6039
-Qator: 5518 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8800-8805
-Qator: 5519 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8963-8968
-Qator: 5527 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6123-6128
-Qator: 5528 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6062-6072
+Qator: 5497 Sabab: invalid literal for int() with base 10: '441/A' Qiymat: 441/A
+Qator: 5502 Sabab: invalid literal for int() with base 10: '1106/A' Qiymat: 1106/A
+Qator: 5516 Sabab: invalid literal for int() with base 10: '6019-6029' Qiymat: 6019-6029
+Qator: 5517 Sabab: invalid literal for int() with base 10: '6030-6039' Qiymat: 6030-6039
+Qator: 5518 Sabab: invalid literal for int() with base 10: '8800-8805' Qiymat: 8800-8805
+Qator: 5519 Sabab: invalid literal for int() with base 10: '8963-8968' Qiymat: 8963-8968
+Qator: 5527 Sabab: invalid literal for int() with base 10: '6123-6128' Qiymat: 6123-6128
+Qator: 5528 Sabab: invalid literal for int() with base 10: '6062-6072' Qiymat: 6062-6072
 Qator: 5532 Sabab: Takrorlangan! Qiymat: 5954
-Qator: 5558 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8933-8944
-Qator: 5587 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6048-6056
-Qator: 5588 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8861-8872
+Qator: 5558 Sabab: invalid literal for int() with base 10: '8933-8944' Qiymat: 8933-8944
+Qator: 5587 Sabab: invalid literal for int() with base 10: '6048-6056' Qiymat: 6048-6056
+Qator: 5588 Sabab: invalid literal for int() with base 10: '8861-8872' Qiymat: 8861-8872
 Qator: 5640 Sabab: Takrorlangan! Qiymat: 11134
-Qator: 5656 Sabab: Ma'lumot turi noto'g'ri Qiymat: 4404-4407
-Qator: 5657 Sabab: Ma'lumot turi noto'g'ri Qiymat: 5535-5554
-Qator: 5658 Sabab: Ma'lumot turi noto'g'ri Qiymat: 3939-3948
-Qator: 5682 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6901-6902
-Qator: 5683 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6838, 6890-6891 6899-6900
-Qator: 5684 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6837, 6882-6883 6897-6898
-Qator: 5685 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6901-6902
-Qator: 5686 Sabab: Ma'lumot turi noto'g'ri Qiymat: 7231-7232
-Qator: 5703 Sabab: Ma'lumot turi noto'g'ri Qiymat: 2341, 6463
-Qator: 5704 Sabab: Ma'lumot turi noto'g'ri Qiymat: 8455-8474
-Qator: 5726 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1803\A
-Qator: 5755 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 5049
-Qator: 5757 Sabab: UNIQUE constraint failed: accounts_book.key Qiymat: 6519
-Qator: 5796 Sabab: Ma'lumot turi noto'g'ri Qiymat: 408/А
+Qator: 5656 Sabab: invalid literal for int() with base 10: '4404-4407' Qiymat: 4404-4407
+Qator: 5657 Sabab: invalid literal for int() with base 10: '5535-5554' Qiymat: 5535-5554
+Qator: 5658 Sabab: invalid literal for int() with base 10: '3939-3948' Qiymat: 3939-3948
+Qator: 5682 Sabab: invalid literal for int() with base 10: '6901-6902' Qiymat: 6901-6902
+Qator: 5683 Sabab: invalid literal for int() with base 10: '6838, 6890-6891 6899-6900' Qiymat: 6838, 6890-6891 6899-6900
+Qator: 5684 Sabab: invalid literal for int() with base 10: '6837, 6882-6883 6897-6898' Qiymat: 6837, 6882-6883 6897-6898
+Qator: 5685 Sabab: invalid literal for int() with base 10: '6901-6902' Qiymat: 6901-6902
+Qator: 5686 Sabab: invalid literal for int() with base 10: '7231-7232' Qiymat: 7231-7232
+Qator: 5703 Sabab: invalid literal for int() with base 10: '2341, 6463' Qiymat: 2341, 6463
+Qator: 5704 Sabab: invalid literal for int() with base 10: '8455-8474' Qiymat: 8455-8474
+Qator: 5726 Sabab: invalid literal for int() with base 10: '1803\\A' Qiymat: 1803\A
+Qator: 5755 Sabab: Takrorlangan! Qiymat: 5049
+Qator: 5757 Sabab: Takrorlangan! Qiymat: 6519
+Qator: 5796 Sabab: invalid literal for int() with base 10: '408/А' Qiymat: 408/А
 Qator: 5802 Sabab: Takrorlangan! Qiymat: 5789
 Qator: 5824 Sabab: Takrorlangan! Qiymat: 6589
-Qator: 5864 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1470\A
-Qator: 5866 Sabab: Ma'lumot turi noto'g'ri Qiymat: 237\А
+Qator: 5840 Sabab: Takrorlangan! Qiymat: 2
+Qator: 5841 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 5864 Sabab: invalid literal for int() with base 10: '1470\\A' Qiymat: 1470\A
+Qator: 5866 Sabab: invalid literal for int() with base 10: '237\\А' Qiymat: 237\А
 Qator: 5958 Sabab: Takrorlangan! Qiymat: 7711
 Qator: 5959 Sabab: Takrorlangan! Qiymat: 7712
 Qator: 5960 Sabab: Takrorlangan! Qiymat: 7713
@@ -428,33 +455,46 @@ Qator: 6023 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1954
 Qator: 6024 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1955
 Qator: 6035 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7116
 Qator: 6036 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 7117
-Qator: 6078 Sabab: Takrorlangan! Qiymat: 224
-Qator: 6079 Sabab: Takrorlangan! Qiymat: 225
-Qator: 6080 Sabab: Takrorlangan! Qiymat: 226
-Qator: 6081 Sabab: Takrorlangan! Qiymat: 227
-Qator: 6082 Sabab: Takrorlangan! Qiymat: 228
-Qator: 6117 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6839, 6884, 6885
-Qator: 6118 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6840, 6886, 6887
-Qator: 6119 Sabab: Ma'lumot turi noto'g'ri Qiymat: 6841, 6888, 6889
-Qator: 6143 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1400-1646
-Qator: 6147 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1452-1466
-Qator: 6171 Sabab: Takrorlangan! Qiymat: 8007
-Qator: 6172 Sabab: Takrorlangan! Qiymat: 8006
-Qator: 6189 Sabab: Ma'lumot turi noto'g'ri Qiymat: 1478-1487
-Qator: 6190 Sabab: Qiymat mavjud emas! Qiymat: None
-Qator: 6301 Sabab: Takrorlangan! Qiymat: 2015
-Qator: 6369 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 10658
-Qator: 6370 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 10657
-Qator: 6385 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11142
-Qator: 6386 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11143
-Qator: 6387 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11144
-Qator: 6388 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11145
-Qator: 6389 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11146
-Qator: 6390 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11147
-Qator: 6403 Sabab: Ma'lumot turi noto'g'ri Qiymat: 4919.6521
-Qator: 6411 Sabab: Takrorlangan! Qiymat: 5054
-Qator: 6462 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 8477
-Qator: 6464 Sabab: Ma'lumot turi noto'g'ri Qiymat: 408/В
-Qator: 6472 Sabab: Ma'lumot turi noto'g'ri Qiymat: 11394, 11395
-Qator: 6473 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11167
-Qator: 6479 Sabab: Ma'lumot turi noto'g'ri Qiymat: 4305/Г
+Qator: 6077 Sabab: Takrorlangan! Qiymat: 224
+Qator: 6078 Sabab: Takrorlangan! Qiymat: 225
+Qator: 6079 Sabab: Takrorlangan! Qiymat: 226
+Qator: 6080 Sabab: Takrorlangan! Qiymat: 227
+Qator: 6081 Sabab: Takrorlangan! Qiymat: 228
+Qator: 6116 Sabab: invalid literal for int() with base 10: '6839, 6884, 6885' Qiymat: 6839, 6884, 6885
+Qator: 6117 Sabab: invalid literal for int() with base 10: '6840, 6886, 6887' Qiymat: 6840, 6886, 6887
+Qator: 6118 Sabab: invalid literal for int() with base 10: '6841, 6888, 6889' Qiymat: 6841, 6888, 6889
+Qator: 6142 Sabab: invalid literal for int() with base 10: '1400-1646' Qiymat: 1400-1646
+Qator: 6146 Sabab: invalid literal for int() with base 10: '1452-1466' Qiymat: 1452-1466
+Qator: 6170 Sabab: Takrorlangan! Qiymat: 8007
+Qator: 6171 Sabab: Takrorlangan! Qiymat: 8006
+Qator: 6177 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 6188 Sabab: invalid literal for int() with base 10: '1478-1487' Qiymat: 1478-1487
+Qator: 6189 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 6300 Sabab: Takrorlangan! Qiymat: 2015
+Qator: 6368 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 10658
+Qator: 6369 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 10657
+Qator: 6384 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11142
+Qator: 6385 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11143
+Qator: 6386 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11144
+Qator: 6387 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11145
+Qator: 6388 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11146
+Qator: 6389 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11147
+Qator: 6410 Sabab: Takrorlangan! Qiymat: 5054
+Qator: 6461 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 8477
+Qator: 6463 Sabab: invalid literal for int() with base 10: '408/В' Qiymat: 408/В
+Qator: 6471 Sabab: invalid literal for int() with base 10: '11394, 11395' Qiymat: 11394, 11395
+Qator: 6472 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11167
+Qator: 6478 Sabab: invalid literal for int() with base 10: '4305/Г' Qiymat: 4305/Г
+Qator: 6492 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 1805
+Qator: 6495 Sabab: Takrorlangan! Qiymat: 1842
+Qator: 6497 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6032
+Qator: 6498 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 6076
+Qator: 6516 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11398
+Qator: 6521 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11495
+Qator: 6522 Sabab: NOT NULL constraint failed: accounts_book.isbn Qiymat: 11467
+Qator: 6559 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 6560 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 6561 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 6562 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 6563 Sabab: Malumot mavjud emas! Qiymat: None
+Qator: 6564 Sabab: Malumot mavjud emas! Qiymat: None

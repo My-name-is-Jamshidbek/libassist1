@@ -42,6 +42,7 @@
       {% csrf_token %}
       <input type="text" name="book_name" placeholder="Kitob inventar raqami" required />
       <input type="number" name="respite" placeholder="Muhlat (kun)" required />
+      <input type="password" name="student_pass" placeholder="Student xavfsizlik kodi" required />
       <div class="profile-button-box">
         <button type="submit">Berish</button>
         {% for message in messages %}

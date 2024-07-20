@@ -25,11 +25,14 @@ def bookIn(request, id):
     student = Students.objects.get(id=id)
     if request.method == 'POST':
         book_key = request.POST['book_name']
+        student_pass = request.POST['student_pass']
         respite = request.POST['respite']
         id = Students.objects.get(id=id)
         staff_id = request.user.id
         if Accept_Book.objects.filter(key=book_key).exists():
             messages.success(request, 'Bu kitob berilgan!')
+        if str(student.passCode) != str(student_pass):
+            messages.success(request, 'Student xavfsizlik kodi noto`g`ri!')
         elif Book.objects.filter(key=book_key).exists():
             Accept_Book(
                 student=id,

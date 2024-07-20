@@ -36,14 +36,6 @@
             <li class="li">
               <a
                 href="{% url 'student_profile' %}"
-                {%
-                block
-                homeahref
-                %}
-                {%
-                endblock
-                homeahref
-                %}
               >
                 <span class="material-symbols-outlined icon"> home </span>
                 <span class="text link-name home-text">Asosiy sahifa</span>
@@ -52,14 +44,6 @@
             <li class="li">
               <a
                 href="{% url 'reading_book' %}"
-                {%
-                block
-                xizmatlarahref
-                %}
-                {%
-                endblock
-                xizmatlarahref
-                %}
               >
                 <span class="material-symbols-outlined icon icon-size">menu_book</span>
                 <span class="text link-name">O'qiyotgan kitoblarim</span>
@@ -68,14 +52,6 @@
             <li class="li">
               <a
                 href="{% url 'read_book' %}"
-                {%
-                block
-                settingsahref
-                %}
-                {%
-                endblock
-                settingsahref
-                %}
               >
                 <span class="material-symbols-outlined icon icon-size">collections_bookmark</span>
                 <span class="text link-name">O'qigan kitoblarim</span>
@@ -84,14 +60,6 @@
             <li class="li">
               <a
                 href="{% url 'news' %}"
-                {%
-                block
-                sendmahref
-                %}
-                {%
-                endblock
-                sendmahref
-                %}
               >
                 <span class="material-symbols-outlined icon">
                   notifications_active
@@ -102,14 +70,6 @@
             <li class="li">
               <a
                 href="{% url 'all_book' %}"
-                {%
-                block
-                all_booksahref
-                %}
-                {%
-                endblock
-                all_booksahref
-                %}
               >
                 <span class="material-symbols-outlined icon">
                   library_books
@@ -120,14 +80,6 @@
             <li class="li">
               <a
                 href="{% url 'contact_s' %}"
-                {%
-                block
-                contactahref
-                %}
-                {%
-                endblock
-                contactahref
-                %}
               >
                 <span class="material-symbols-outlined icon">
                   lab_profile
@@ -155,6 +107,7 @@
         <div class="top-menu">
           <div class="top">
             <div class="top-right-profile">
+                <p style="margin: 50px">PassCode: {{ student.passCode }}</p>
               <img
                 src="{% static 'avatar.jpg' %}"
                 alt="image"

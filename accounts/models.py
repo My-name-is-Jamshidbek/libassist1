@@ -73,6 +73,7 @@ class Students(models.Model):
     formofEducation = models.CharField(max_length=100, verbose_name="Talim shakli")
     phone_number = models.CharField(max_length=20, verbose_name="Telefon raqami")
     nfcId = models.CharField(max_length=50)
+    passCode = models.IntegerField(default=1234)
     updated_at = models.DateTimeField(auto_now=True)
     objects = models.Manager()
     created_at = models.DateTimeField(auto_now_add=True)
