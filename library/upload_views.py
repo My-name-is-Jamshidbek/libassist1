@@ -7,14 +7,16 @@ from tablib import Dataset
 
 def student_upload(request):
     if request.method == 'POST':
+        Group.objects.all().delete()
+        CustomUser.objects.filter(user_type=3).delete()
         dataset = Dataset()
         new_book = request.FILES['file']
         imported_data = dataset.load(new_book.read(), format='xlsx')
-        i, x, q, s,n = 0, 0, "", 0,0
+        i, x, q, s, n = 0, 0, "", 0, 0
         for data in imported_data:
             print(i)
             i += 1
-            group = data[12]
+            group = data[14]
             print(Group.objects.filter(number=group))
             if Group.objects.filter(number=group):
                 pass
@@ -28,18 +30,18 @@ def student_upload(request):
                     user_type=3
                 )
                 user.student.FIO = data[1]
-                user.student.passport_id = data[8]
-                user.student.JSHSHIR = data[9]
+                user.student.passport_id = data[9]
+                user.student.JSHSHIR = data[10]
                 user.student.fuqarolik = data[2]
                 user.student.country = data[3]
                 user.student.region = data[5]
                 user.student.tuman = data[6]
                 user.student.gender = data[7]
-                user.student.brithday = "Kiritilmagan"
-                user.student.faculty = data[11]
+                user.student.brithday = data[8]
+                user.student.faculty = data[13]
                 user.student.groups = group_id
-                user.student.typeofEducation = data[16]
-                user.student.formofEducation = data[17]
+                user.student.typeofEducation = data[21]
+                user.student.formofEducation = data[22]
                 user.student.phone_number = "Kiritilmagan"
                 user.save()
                 s+=1
@@ -71,7 +73,7 @@ def book_upload1(request):
             imported_data = dataset.load(new_book.read(), format='xlsx')
             book_c = 0
             for data in imported_data:
-                if data[1] and data[2] and data[3] and data[4] and data[5] and data[6] and data[7] and data[8] and data[9] and data[10] and data[11]:
+                if data[1] and data[2] and data[3] and data[4] and data[5] and data[6] and data[7] and data[8] and data[10] and data[11]:
                     book_c += 1
                     value = Book(
                         book_name=data[1],
@@ -82,7 +84,7 @@ def book_upload1(request):
                         language=data[6],
                         year=data[7],
                         beti=data[8],
-                        isbn=data[9],
+                        isbn=data[9] if data[9] else "Kiritilmagan",
                         money=data[10],
                         key=data[11],
                     )
@@ -135,7 +137,7 @@ def book_upload(request):
                             language=use_data[10],
                             year=use_data[11],
                             beti=use_data[13],
-                            isbn=use_data[14],
+                            isbn=use_data[14] if use_data[14] else "Kiritilmagan",
                             money=use_data[15],
                             key=int(data[3]),
                             )
