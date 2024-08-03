@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'QRCODE.apps.QrcodeConfig',
     'import_export',
     'rest_framework',
+    'scanapp'
 ]
 
 MIDDLEWARE = [

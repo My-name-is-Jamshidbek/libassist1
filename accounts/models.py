@@ -111,7 +111,7 @@ class Return_Book(models.Model):
     book_name = models.CharField(max_length=50, verbose_name="Kitob nomi")
     author = models.CharField(max_length=100, verbose_name='Муаллифи')
     date = models.DateTimeField(verbose_name="olingan vaqti", blank=True, null=True)
-    key = models.CharField(max_length=25, unique=True)
+    key = models.CharField(max_length=25)
     respite = models.DateTimeField(blank=True, null=True)
     objects = models.Manager()
     created_at = models.DateTimeField(auto_now_add=True)

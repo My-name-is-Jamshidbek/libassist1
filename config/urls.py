@@ -24,4 +24,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('nfs/', include(nfs_urls)),
     path('', include(accounts_urls)),
+    path('scan/', include('scanapp.urls')),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

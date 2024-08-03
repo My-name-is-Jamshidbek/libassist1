@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elektron kutubxona</title>
+    <link rel="stylesheet" href="{% static 'accounts/css/log_in.css' %}" />
+    <style>
+        .popup-message {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            z-index: 1000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .popup-message .close-btn {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .popup-message.success {
+            border-color: #4CAF50;
+        }
+        .popup-message.error {
+            border-color: #f44336;
+        }
+    </style>
+</head>
+<body id="bodyy">
+    <div class="container">
+        <div>
+            <form id="barcodeForm" method="post">
+                {% csrf_token %}
+                <h4 class="logn-in-title">Barcodni kiriting</h4>
+                <div class="user-name">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24" class="login-icon"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M24 32C10.7 32 0 42.7 0 56L0 456c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24L64 56c0-13.3-10.7-24-24-24L24 32zm88 0c-8.8 0-16 7.2-16 16l0 416c0 8.8 7.2 16 16 16s16-7.2 16-16l0-416c0-8.8-7.2-16-16-16zm72 0c-13.3 0-24 10.7-24 24l0 400c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-400c0-13.3-10.7-24-24-24l-16 0zm96 0c-13.3 0-24 10.7-24 24l0 400c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-400c0-13.3-10.7-24-24-24l-16 0zM448 56l0 400c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-400c0-13.3-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24zm-64-8l0 416c0 8.8 7.2 16 16 16s16-7.2 16-16l0-416c0-8.8-7.2-16-16-16s-16 7.2-16 16z"/></svg>
+                    <input
+                        type="text"
+                        name="barcode"
+                        id="barcodeInput"
+                        placeholder="Bar code"
+                    />
+                </div>
+                <button type="button" class="btn" onclick="submitForm()">Tekshirish</button>
+            </form>
+            {% if messages %}
+            <div id="popup-messages">
+                {% for message in messages %}
+                    <div class="popup-message {{ message.tags }}">
+                        <p>{{ message }}</p>
+{#                        <button class="close-btn" onclick="closePopup(this)">OK</button>#}
+                    </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    <script>
+        const bodyy = document.querySelector("#bodyy");
+        const barcodeInput = document.querySelector("#barcodeInput");
+        const barcodeForm = document.querySelector("#barcodeForm");
+
+        if (localStorage.getItem("theme") === "dark") {
+            bodyy.classList.add("dark");
+            localStorage.setItem("theme", "dark");
+        } else {
+            localStorage.setItem("theme", "light");
+            bodyy.classList.remove("dark");
+        }
+
+        document.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();  // Prevent the default form submission
+                submitForm();
+            }
+        });
+
+        function submitForm() {
+            if (barcodeInput.value.trim() !== '') {
+                barcodeForm.submit();
+            }
+        }
+
+        function closePopup(button) {
+            const popup = button.parentElement;
+            popup.style.display = 'none';
+        }
+
+        // Show all popups when the page loads and set a timeout to auto-close
+        document.addEventListener('DOMContentLoaded', () => {
+            const popups = document.querySelectorAll('.popup-message');
+            popups.forEach(popup => {
+                popup.style.display = 'block';
+                setTimeout(() => {
+                    popup.style.display = 'none';
+                }, 3000); // Auto-close after 5 seconds
+            });
+            barcodeInput.focus();
+            setInterval(() => {
+                barcodeInput.focus();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
